@@ -529,9 +529,25 @@
       </div>
 
       <!-- Videos Card Grid -->
-      <div id="videos-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div id="videos-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 scroll-mt-40">
         <!-- Injected via JavaScript -->
       </div>
+
+      <!-- Pager (12 videos per page) -->
+      <nav id="videos-pager" class="hidden flex-col sm:flex-row items-center justify-between gap-3 pt-2" aria-label="Video pages">
+        <p id="pager-summary" class="text-xs text-slate-400 order-2 sm:order-1">Showing 1–12 of 0 videos</p>
+        <div class="flex items-center gap-1.5 order-1 sm:order-2">
+          <button type="button" id="pager-prev" class="h-10 px-3 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-semibold flex items-center gap-1 transition disabled:opacity-40 disabled:pointer-events-none" aria-label="Previous page">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+            <span class="hidden sm:inline">Previous</span>
+          </button>
+          <div id="pager-pages" class="flex items-center gap-1"></div>
+          <button type="button" id="pager-next" class="h-10 px-3 rounded-lg bg-[#FF570C] hover:bg-[#E64A00] text-white text-xs font-semibold flex items-center gap-1 transition disabled:opacity-40 disabled:pointer-events-none" aria-label="Next page">
+            <span class="hidden sm:inline">Next 12</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </nav>
 
       <!-- Empty State -->
       <div id="empty-state" class="hidden text-center py-16 bg-slate-900/40 border border-slate-800 rounded-2xl p-6">
@@ -3438,6 +3454,67 @@
     }
 
     // --- 9. RENDER VIDEO CARDS (LIBRARY VIEW) ---
+    const VIDEOS_PER_PAGE = 12;
+    let currentPage = 1;
+    let lastFilterKey = "";
+
+    function goToPage(page) {
+      currentPage = page;
+      renderVideos();
+      const grid = document.getElementById("videos-grid");
+      if (grid) {
+        try { grid.scrollIntoView({ behavior: "smooth", block: "start" }); } catch (e) { grid.scrollIntoView(); }
+      }
+    }
+
+    function renderPager(totalItems, totalPages) {
+      const pager = document.getElementById("videos-pager");
+      if (!pager) return;
+      if (totalPages <= 1) {
+        pager.classList.add("hidden");
+        pager.classList.remove("flex");
+        return;
+      }
+      pager.classList.remove("hidden");
+      pager.classList.add("flex");
+
+      const start = (currentPage - 1) * VIDEOS_PER_PAGE + 1;
+      const end = Math.min(currentPage * VIDEOS_PER_PAGE, totalItems);
+      document.getElementById("pager-summary").textContent = `Showing ${start}–${end} of ${totalItems} videos · Page ${currentPage} of ${totalPages}`;
+
+      const prev = document.getElementById("pager-prev");
+      const next = document.getElementById("pager-next");
+      prev.disabled = currentPage <= 1;
+      next.disabled = currentPage >= totalPages;
+      prev.onclick = () => { if (currentPage > 1) goToPage(currentPage - 1); };
+      next.onclick = () => { if (currentPage < totalPages) goToPage(currentPage + 1); };
+
+      // Page numbers: first, last, current ±1, with ellipses
+      const nums = new Set([1, totalPages, currentPage - 1, currentPage, currentPage + 1]);
+      const list = [...nums].filter(n => n >= 1 && n <= totalPages).sort((a, b) => a - b);
+      const pagesEl = document.getElementById("pager-pages");
+      pagesEl.innerHTML = "";
+      let prevNum = 0;
+      list.forEach(n => {
+        if (n - prevNum > 1) {
+          const gap = document.createElement("span");
+          gap.className = "px-1 text-slate-500 text-xs";
+          gap.textContent = "…";
+          pagesEl.appendChild(gap);
+        }
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.textContent = n;
+        const active = n === currentPage;
+        btn.className = `min-w-10 h-10 px-2 rounded-lg text-xs font-bold border transition ${active ? "bg-[#FF570C]/20 text-[#FF570C] border-[#FF570C]/60" : "bg-slate-900 text-slate-300 border-slate-700 hover:bg-slate-800"}`;
+        if (active) btn.setAttribute("aria-current", "page");
+        btn.setAttribute("aria-label", `Page ${n}`);
+        btn.addEventListener("click", () => { if (n !== currentPage) goToPage(n); });
+        pagesEl.appendChild(btn);
+        prevNum = n;
+      });
+    }
+
     function renderVideos() {
       const grid = document.getElementById("videos-grid");
       const emptyState = document.getElementById("empty-state");
@@ -3449,6 +3526,16 @@
 
       const isSupervisor = state.userRole === "supervisor";
 
+      // Back to page 1 whenever filters, search, sort or language change
+      const filterKey = JSON.stringify(state.filters) + "|" + state.lang;
+      if (filterKey !== lastFilterKey) {
+        currentPage = 1;
+        lastFilterKey = filterKey;
+      }
+      const totalPages = Math.max(1, Math.ceil(filtered.length / VIDEOS_PER_PAGE));
+      if (currentPage > totalPages) currentPage = totalPages;
+      renderPager(filtered.length, totalPages);
+
       if (filtered.length === 0) {
         grid.innerHTML = "";
         emptyState.classList.remove("hidden");
@@ -3458,7 +3545,8 @@
       emptyState.classList.add("hidden");
       grid.innerHTML = "";
 
-      filtered.forEach(video => {
+      const pageItems = filtered.slice((currentPage - 1) * VIDEOS_PER_PAGE, currentPage * VIDEOS_PER_PAGE);
+      pageItems.forEach(video => {
         const isBookmarked = state.bookmarks.has(video.id);
         const card = document.createElement("div");
         card.className = "bg-slate-900 border border-slate-800 hover:border-slate-700 rounded-2xl overflow-hidden shadow-lg transition-all duration-200 flex flex-col group relative";

@@ -1256,5 +1256,87 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Record readings and compare with minimum acceptable values.",
       "Discharge windings and reconnect correctly."
     ]
+  },
+  {
+    "id": "hvac-115",
+    "title": "How to Clean a Condenser Coil",
+    "category": "HVAC",
+    "subject": "Preventive Maintenance",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "HVAC School",
+    "publishDate": "2026-10-21",
+    "duration": "4:03",
+    "embedUrl": "https://www.youtube.com/embed/PGC2gOkOSTk",
+    "isNew": true,
+    "summary": "A lint-clogged condenser is foam-cleaned and rinsed inside-out, with before-and-after readings showing lower head pressure and discharge air temperature.",
+    "safety": "Isolate and lock out the outdoor unit at the disconnect, wear chemical-resistant gloves and eye protection with coil cleaner, and avoid bending fins with high-pressure water.",
+    "ppe": [
+      "Chemical-Resistant Gloves",
+      "Safety Glasses",
+      "Steel Toe Boots"
+    ],
+    "steps": [
+      "Record condenser air split and pressures, then isolate and lock out power.",
+      "Remove the top and side panels and pre-wet the coil.",
+      "Apply diluted coil cleaner as foam from the bottom up and let it dwell 5–10 minutes.",
+      "Rinse from the inside out, top to bottom, without bending fins.",
+      "Reassemble, restore power and re-check pressures and air split."
+    ]
+  },
+  {
+    "id": "plumb-117",
+    "title": "How to Install a Thermal Expansion Tank",
+    "category": "Plumbing",
+    "subject": "Water Heaters",
+    "level": "Intermediate",
+    "source": "Manufacturer Tech Academy",
+    "channel": "Amtrol Inc.",
+    "publishDate": "2026-10-21",
+    "duration": "2:30",
+    "embedUrl": "https://www.youtube.com/embed/H8beYeGxgJg",
+    "isNew": true,
+    "summary": "Amtrol shows how to measure line pressure, set the tank precharge to match, and install a Therm-X-Trol expansion tank on the cold supply to a water heater.",
+    "safety": "Isolate the cold supply and switch off the water heater before cutting in, relieve system pressure, and support the tank so its weight is not carried by the pipework.",
+    "ppe": [
+      "Safety Glasses",
+      "Work Gloves",
+      "Steel Toe Boots"
+    ],
+    "steps": [
+      "Measure static line pressure with a hose-thread gauge at a spigot.",
+      "Set the tank air precharge to match line pressure using a tyre gauge and pump.",
+      "Isolate the cold supply, switch off the heater and relieve pressure.",
+      "Install the tank on the cold inlet with sealed threads and proper support.",
+      "Restore water, check for leaks and return the heater to service."
+    ]
+  },
+  {
+    "id": "elec-117",
+    "title": "Earth Fault Loop Impedance (Zs) Testing on 16A Single & 3-Phase Industrial Sockets",
+    "category": "Electrical",
+    "subject": "Testing & Inspection",
+    "level": "Advanced",
+    "source": "YouTube / Field Guild",
+    "channel": "GSH Electrical",
+    "publishDate": "2026-10-21",
+    "duration": "3:30",
+    "embedUrl": "https://www.youtube.com/embed/Y7NPT8sQINY",
+    "isNew": true,
+    "summary": "Measuring Zs on 16A single-phase and 400V three-phase industrial socket outlets, testing L1, L2 and L3 in turn and comparing results with the protective device's maximum Zs.",
+    "safety": "Zs testing is a live test: use a calibrated loop tester with GS38-compliant leads, confirm the RCD and circuit details first, and keep others clear of the outlet under test.",
+    "ppe": [
+      "1000V Insulated Gloves",
+      "Safety Glasses",
+      "Arc-Rated Clothing",
+      "Steel Toe Boots"
+    ],
+    "steps": [
+      "Confirm circuit details and look up maximum Zs for the protective device.",
+      "Check the loop tester and leads, then connect via a suitable test plug.",
+      "Measure Zs on the single-phase outlet (L-E).",
+      "Measure Zs on each phase L1, L2 and L3 of the three-phase outlet.",
+      "Record results and compare with BS 7671 limits (80% rule)."
+    ]
   }
 ];

@@ -1338,5 +1338,85 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Measure Zs on each phase L1, L2 and L3 of the three-phase outlet.",
       "Record results and compare with BS 7671 limits (80% rule)."
     ]
+  },
+  {
+    "id": "hvac-116",
+    "title": "Charging a Mini-Split by Weight (Mitsubishi)",
+    "category": "HVAC",
+    "subject": "Refrigerant & Diagnostics",
+    "level": "Intermediate",
+    "source": "YouTube / Field Guild",
+    "channel": "AC Service Tech LLC",
+    "publishDate": "2026-10-22",
+    "duration": "9:10",
+    "embedUrl": "https://www.youtube.com/embed/QpzOSQt2fpI",
+    "isNew": true,
+    "summary": "Calculating the extra refrigerant for the installed line length from the nameplate and weighing it into a ductless mini-split with a scale.",
+    "safety": "Wear eye protection and refrigerant gloves; keep the cylinder upright on the scale and never overcharge beyond the calculated weight.",
+    "ppe": [
+      "Safety Glasses",
+      "Refrigerant-Grade Leather Gloves",
+      "Steel Toe Boots"
+    ],
+    "steps": [
+      "Read the factory charge and pre-charged line length on the outdoor unit nameplate.",
+      "Measure the actual line set length and calculate the additional charge required.",
+      "Evacuate the system and confirm a stable micron reading.",
+      "Zero the scale and weigh in the calculated refrigerant through the suction port.",
+      "Record the total charge, then check operating pressures and temperatures."
+    ]
+  },
+  {
+    "id": "plumb-118",
+    "title": "Checking & Adjusting Pressure Tank Pre-Charge",
+    "category": "Plumbing",
+    "subject": "Pumps",
+    "level": "Advanced",
+    "source": "Manufacturer Tech Academy",
+    "channel": "R.C. Worst & Co., Inc.",
+    "publishDate": "2026-10-22",
+    "duration": "5:57",
+    "embedUrl": "https://www.youtube.com/embed/w21qa2bMUh8",
+    "isNew": true,
+    "summary": "Testing and setting the air pre-charge of a pressure tank relative to the pump cut-in pressure to stop short-cycling of booster pumps.",
+    "safety": "Isolate and lock out the pump, close the tank isolation valve and drain the water side before checking air pressure.",
+    "ppe": [
+      "Safety Glasses",
+      "Work Gloves",
+      "Steel Toe Boots"
+    ],
+    "steps": [
+      "Isolate and lock out the pump supply.",
+      "Close the tank isolation valve and drain all water from the tank.",
+      "Check air pre-charge at the Schrader valve with a tyre gauge.",
+      "Set pre-charge about 2 psi (0.15 bar) below the pump cut-in pressure.",
+      "Refill, restore power and watch for normal cut-in/cut-out cycling."
+    ]
+  },
+  {
+    "id": "elec-118",
+    "title": "Electrical Safety Basics for Non-Electricians",
+    "category": "Electrical",
+    "subject": "Safety & Isolation",
+    "level": "Beginner",
+    "source": "Manufacturer Tech Academy",
+    "channel": "Schneider Electric",
+    "publishDate": "2026-10-22",
+    "duration": "9:21",
+    "embedUrl": "https://www.youtube.com/embed/ggJo6m8NZtA",
+    "isNew": true,
+    "summary": "Core electrical hazards (shock, arc flash, fire), safe distances and what non-electrical staff must and must not do around electrical equipment.",
+    "safety": "Never open panels or touch electrical equipment unless trained and authorised; report damaged cables, sockets and panels immediately.",
+    "ppe": [
+      "Safety Glasses",
+      "Insulated Safety Shoes"
+    ],
+    "steps": [
+      "Identify electrical hazards in your work area (panels, cables, sockets).",
+      "Keep panel doors closed and clear access in front of electrical rooms.",
+      "Do not use damaged cables, plugs or extension leads.",
+      "Never attempt electrical repairs unless authorised; call a qualified electrician.",
+      "Report wet areas, burning smells or tripping breakers to the supervisor."
+    ]
   }
 ];

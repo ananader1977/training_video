@@ -1418,5 +1418,86 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Never attempt electrical repairs unless authorised; call a qualified electrician.",
       "Report wet areas, burning smells or tripping breakers to the supervisor."
     ]
+  },
+  {
+    "id": "hvac-117",
+    "title": "Diagnosing Liquid Line Restriction vs Low Airflow vs Low Charge",
+    "category": "HVAC",
+    "subject": "Refrigerant & Diagnostics",
+    "level": "Advanced",
+    "source": "YouTube / Field Guild",
+    "channel": "AC Service Tech LLC",
+    "publishDate": "2026-10-23",
+    "duration": "10:00",
+    "embedUrl": "https://www.youtube.com/embed/zOd2G10F-YY",
+    "isNew": true,
+    "summary": "Using gauge pressures, saturation temperatures, superheat and subcooling to tell a liquid line restriction apart from low indoor airflow or a low refrigerant charge.",
+    "safety": "Wear eye protection and refrigerant gloves when connecting gauges, keep clear of fan blades and live terminals, and isolate power before opening electrical panels.",
+    "ppe": [
+      "Safety Glasses",
+      "Refrigerant-Grade Leather Gloves",
+      "Steel Toe Boots"
+    ],
+    "steps": [
+      "Check indoor airflow first: filter, blower and evaporator coil condition.",
+      "Connect gauges and temperature clamps to the suction and liquid lines.",
+      "Measure suction/liquid pressures and calculate superheat and subcooling.",
+      "Compare readings: high subcooling with high superheat points to a restriction; low subcooling with high superheat points to low charge.",
+      "Check for a temperature drop across the filter drier or metering device, then record findings and the corrective action."
+    ]
+  },
+  {
+    "id": "plumb-119",
+    "title": "Replacing a Toilet Wax Ring Seal",
+    "category": "Plumbing",
+    "subject": "Sanitary Fixtures",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "Just Az.com productions",
+    "publishDate": "2026-10-23",
+    "duration": "5:00",
+    "embedUrl": "https://www.youtube.com/embed/ae0TzEAzDZw",
+    "isNew": true,
+    "summary": "Removing a toilet, cleaning the flange and fitting a new wax ring seal to stop leaks and sewer odour at the base of the pan.",
+    "safety": "Isolate and drain the water supply first, lift the pan with a proper two-hand grip or a second person, and wear gloves when handling the soiled flange.",
+    "ppe": [
+      "Nitrile Gloves",
+      "Safety Glasses",
+      "Knee Pads"
+    ],
+    "steps": [
+      "Close the angle valve, flush and sponge out the remaining water, then disconnect the supply hose.",
+      "Remove the floor bolt nuts and lift the toilet straight up off the flange.",
+      "Scrape off the old wax and inspect the flange and bolts for damage.",
+      "Fit the new wax ring and set the toilet straight down onto the flange bolts.",
+      "Tighten the nuts evenly without over-tightening, reconnect the supply and check for leaks after several flushes."
+    ]
+  },
+  {
+    "id": "elec-119",
+    "title": "Ring Final Circuit Continuity & Polarity Testing (r1, rn, r2)",
+    "category": "Electrical",
+    "subject": "Testing & Inspection",
+    "level": "Intermediate",
+    "source": "YouTube / Field Guild",
+    "channel": "GSH Electrical",
+    "publishDate": "2026-10-23",
+    "duration": "13:30",
+    "embedUrl": "https://www.youtube.com/embed/UesYHVsZD-E",
+    "isNew": true,
+    "summary": "Three-stage dead test of a BS 7671 ring final circuit: end-to-end r1/rn/r2 readings, figure-of-8 cross-connection checks at every socket and fused spur, and recording R1+R2 on the test sheet.",
+    "safety": "Safely isolate, lock off and prove dead with an approved voltage indicator before disconnecting the ring conductors, and re-prove your tester on a known source.",
+    "ppe": [
+      "Insulated Gloves",
+      "Safety Glasses",
+      "Insulated Safety Shoes"
+    ],
+    "steps": [
+      "Isolate the circuit at the board, lock off and prove dead.",
+      "Measure end-to-end resistance of line (r1), neutral (rn) and CPC (r2) and confirm they are consistent.",
+      "Cross-connect line and neutral (figure of 8) and test at every socket for similar readings.",
+      "Cross-connect line and CPC and test at every socket and fused spur to get R1+R2 and confirm polarity.",
+      "Restore connections, record r1, rn, r2 and R1+R2 on the schedule of test results."
+    ]
   }
 ];

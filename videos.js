@@ -1499,5 +1499,87 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Cross-connect line and CPC and test at every socket and fused spur to get R1+R2 and confirm polarity.",
       "Restore connections, record r1, rn, r2 and R1+R2 on the schedule of test results."
     ]
+  },
+  {
+    "id": "hvac-118",
+    "title": "HVAC Run Capacitor Testing: Under-Load, Bench Test & Visual Inspection",
+    "category": "HVAC",
+    "subject": "Electrical Components",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "AC Service Tech LLC",
+    "publishDate": "2026-10-24",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/HcJL4BDJJy8",
+    "isNew": true,
+    "summary": "Three ways to tell whether an AC run capacitor is good, weak or failed: measuring it under load with the unit running, bench testing it with a capacitance meter, and checking it visually for bulging or leaks.",
+    "safety": "Isolate and lock off the outdoor unit before touching the capacitor, discharge it safely with a resistor tool before handling, and keep hands clear of live terminals and the fan during any under-load test.",
+    "ppe": [
+      "Insulated Gloves",
+      "Safety Glasses",
+      "Insulated Safety Shoes"
+    ],
+    "steps": [
+      "Isolate the unit at the disconnect, lock off and prove dead before opening the panel.",
+      "Inspect the capacitor for bulging, oil leaks or burnt terminals and note its µF rating and tolerance.",
+      "Discharge the capacitor safely, then label and remove the wires from the terminals.",
+      "Bench-test each section (HERM–C and FAN–C) with a capacitance meter and compare the reading to the rated value ±tolerance.",
+      "Replace any capacitor that is out of tolerance with one of the same µF and voltage rating, reconnect and confirm normal running."
+    ]
+  },
+  {
+    "id": "plumb-120",
+    "title": "Installing a Water Pressure Reducing Valve (Zurn Wilkins NR3XL)",
+    "category": "Plumbing",
+    "subject": "Valves & Pressure Control",
+    "level": "Intermediate",
+    "source": "Manufacturer Tech Academy",
+    "channel": "Zurn Water, LLC",
+    "publishDate": "2026-10-24",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/7XpeP_cvvhg",
+    "isNew": true,
+    "summary": "Zurn's step-by-step installation of the Wilkins NR3XL pressure reducing valve on a water supply line, including the recommended tools and setting the outlet pressure.",
+    "safety": "Isolate and drain the supply line before cutting in, relieve residual pressure through a downstream tap, and check that the system is protected against thermal expansion once the PRV is installed.",
+    "ppe": [
+      "Safety Glasses",
+      "Work Gloves",
+      "Safety Shoes"
+    ],
+    "steps": [
+      "Measure the incoming static pressure with a gauge and confirm the PRV size and pressure range.",
+      "Close the main isolation valve, open a downstream tap and drain the line.",
+      "Install the PRV with the flow arrow in the correct direction, using unions and isolation valves on both sides.",
+      "Open the supply slowly, bleed air and check every joint for leaks.",
+      "Set the outlet pressure with the adjusting screw while watching a downstream gauge, then lock the adjustment and record the setting."
+    ]
+  },
+  {
+    "id": "elec-120",
+    "title": "Insulation Resistance Testing on a Three-Phase Circuit",
+    "category": "Electrical",
+    "subject": "Testing & Inspection",
+    "level": "Advanced",
+    "source": "YouTube / Field Guild",
+    "channel": "Proactive Technical Training PTT",
+    "publishDate": "2026-10-24",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/0SS4bdnnjeM",
+    "isNew": true,
+    "summary": "How to carry out an insulation resistance test on a 400V three-phase circuit with an insulation tester, testing between all live conductors and to earth and judging the readings against the minimum values.",
+    "safety": "Safely isolate, lock off and prove the circuit dead, disconnect or protect sensitive equipment and surge devices before applying the test voltage, and discharge the circuit after each test.",
+    "ppe": [
+      "Insulated Gloves",
+      "Safety Glasses",
+      "Arc-Rated Clothing",
+      "Insulated Safety Shoes"
+    ],
+    "steps": [
+      "Isolate the three-phase circuit, lock off and prove dead at the point of work.",
+      "Disconnect or isolate loads, electronic equipment and SPDs that could be damaged or affect the reading.",
+      "Set the insulation tester to 500V DC and test L1–L2, L2–L3, L1–L3 and each line to neutral.",
+      "Test all line conductors and neutral to earth (CPC) and confirm every reading is above the minimum (≥1 MΩ).",
+      "Discharge the circuit, reconnect equipment and record the lowest readings on the test schedule."
+    ]
   }
 ];

@@ -1581,5 +1581,87 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Test all line conductors and neutral to earth (CPC) and confirm every reading is above the minimum (≥1 MΩ).",
       "Discharge the circuit, reconnect equipment and record the lowest readings on the test schedule."
     ]
+  },
+  {
+    "id": "hvac-119",
+    "title": "Why Measure Both Superheat and Subcooling When Checking a TXV System's Charge",
+    "category": "HVAC",
+    "subject": "Refrigerant & Diagnostics",
+    "level": "Intermediate",
+    "source": "YouTube / Field Guild",
+    "channel": "AC Service Tech LLC",
+    "publishDate": "2026-10-25",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/ADVMXANhoz4",
+    "isNew": true,
+    "summary": "Explains why a single-speed AC with a TXV is charged by subcooling but total superheat must also be checked to confirm the system is operating correctly and no other fault is hiding.",
+    "safety": "Only EPA/608-certified (or locally licensed) technicians should connect gauges; wear eye and hand protection against refrigerant burns and keep clear of rotating fans and live terminals in the condenser.",
+    "ppe": [
+      "Safety Glasses",
+      "Refrigerant-Resistant Gloves",
+      "Insulated Safety Shoes"
+    ],
+    "steps": [
+      "Run the system at least 15 minutes with clean filters and correct indoor airflow before taking readings.",
+      "Connect gauges or probes and clamp temperature sensors on the liquid line and suction line near the service valves.",
+      "Calculate subcooling (liquid saturation temp minus liquid line temp) and compare with the nameplate target.",
+      "Calculate total superheat (suction line temp minus suction saturation temp) and confirm it is in the normal TXV range.",
+      "Adjust charge only if both readings agree, then remove gauges, cap the ports and record the readings."
+    ]
+  },
+  {
+    "id": "plumb-121",
+    "title": "Operating & Commissioning a Grundfos CME Booster Pump",
+    "category": "Plumbing",
+    "subject": "Pumps",
+    "level": "Advanced",
+    "source": "Manufacturer Tech Academy",
+    "channel": "Grundfos",
+    "publishDate": "2026-10-25",
+    "duration": "9:24",
+    "embedUrl": "https://www.youtube.com/embed/geckSyt5LKs",
+    "isNew": true,
+    "summary": "A Grundfos service specialist shows how to commission and operate a CME booster pump, including setting pressure, start/stop, sensor errors, dry-running protection, tank precharge and servicing.",
+    "safety": "Isolate and lock off the pump's electrical supply and close the isolating valves before opening the pump or tank, and release system pressure fully before removing sensors or fittings.",
+    "ppe": [
+      "Safety Glasses",
+      "Work Gloves",
+      "Safety Shoes",
+      "Insulated Gloves (electrical checks)"
+    ],
+    "steps": [
+      "Check the pump is primed and suction/discharge valves are open, and confirm the supply voltage matches the nameplate.",
+      "Check and set the pressure tank precharge with the system drained (typically about 0.9 × pump setpoint).",
+      "Power up, set the required pressure setpoint on the control panel and start the pump.",
+      "Open outlets to confirm the pump starts, holds pressure and stops on no-flow; check for sensor or dry-run alarms.",
+      "Clear any fault codes, record setpoint and precharge, and schedule servicing per the manufacturer's manual."
+    ]
+  },
+  {
+    "id": "elec-121",
+    "title": "Electrical Safe Isolation Procedure – Single Phase",
+    "category": "Electrical",
+    "subject": "Safety & Isolation",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "Residual Electrical",
+    "publishDate": "2026-10-25",
+    "duration": "8:00",
+    "embedUrl": "https://www.youtube.com/embed/opHtgbcicTk",
+    "isNew": true,
+    "summary": "Walks through a complete safe isolation procedure on a 230V single-phase installation: identify the circuit, isolate, lock off, prove the tester, test dead and re-prove the tester.",
+    "safety": "Never work on a circuit until it is isolated, locked off with your own lock and key, and proven dead with a GS38-compliant approved voltage indicator checked on a proving unit before and after the test.",
+    "ppe": [
+      "Insulated Gloves",
+      "Safety Glasses",
+      "Insulated Safety Shoes"
+    ],
+    "steps": [
+      "Identify the correct circuit and get permission to isolate it from the person in control of the premises.",
+      "Switch off the MCB/RCBO or isolator, fit a lock-off device with your personal padlock and a warning tag.",
+      "Prove the approved voltage indicator works on a proving unit or known live source.",
+      "Test between all conductors (L–N, L–E, N–E) at the point of work to confirm the circuit is dead.",
+      "Re-prove the voltage indicator on the proving unit, then start work keeping the key with you."
+    ]
   }
 ];

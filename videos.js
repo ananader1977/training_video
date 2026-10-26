@@ -1663,5 +1663,86 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Test between all conductors (L–N, L–E, N–E) at the point of work to confirm the circuit is dead.",
       "Re-prove the voltage indicator on the proving unit, then start work keeping the key with you."
     ]
+  },
+  {
+    "id": "hvac-120",
+    "title": "Troubleshooting an AC Condenser Fan Motor: Supply Voltage, Capacitor, Contactor & Windings",
+    "category": "HVAC",
+    "subject": "Diagnostics",
+    "level": "Advanced",
+    "source": "YouTube / Field Guild",
+    "channel": "Fox Family Heating and Air Conditioning",
+    "publishDate": "2026-10-26",
+    "duration": "5:18",
+    "embedUrl": "https://www.youtube.com/embed/OMRExEe2aM8",
+    "isNew": true,
+    "summary": "A technician diagnoses a failed condenser fan motor by checking supply voltage at the motor, the run capacitor and the contactor, then testing the motor windings with an ohmmeter, with real cases of debris and moisture damage.",
+    "safety": "Isolate and lock off the outdoor unit disconnect, discharge the capacitor with an insulated resistor tool before touching terminals, and keep hands clear of the fan blade until it has fully stopped.",
+    "ppe": [
+      "Insulated Gloves",
+      "Safety Glasses",
+      "Safety Shoes"
+    ],
+    "steps": [
+      "Confirm the call is a no-fan condition with the compressor running, then isolate, lock off and remove the top panel.",
+      "Restore power briefly and measure supply voltage at the fan motor leads with the contactor pulled in.",
+      "Isolate again, discharge and test the run capacitor against its rated µF, and inspect the contactor contacts.",
+      "Disconnect the motor leads and measure winding resistance (common–run, common–start) and check for shorts to ground.",
+      "Replace the faulty part, check the shroud and drain holes for debris and moisture entry, then run and record fan amps."
+    ]
+  },
+  {
+    "id": "plumb-122",
+    "title": "How to Unclog a Toilet with a Closet Auger",
+    "category": "Plumbing",
+    "subject": "Drainage",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "Roger Wakefield Plumbing Education",
+    "publishDate": "2026-10-26",
+    "duration": "4:17",
+    "embedUrl": "https://www.youtube.com/embed/OSIpZzs8NRA",
+    "isNew": true,
+    "summary": "A master plumber explains the parts of a closet auger and demonstrates how to feed and crank it through the toilet trap to clear a stubborn blockage that a plunger cannot shift.",
+    "safety": "Do not use chemical drain cleaners before augering because of splash-back burns, keep the rubber guard against the bowl to avoid scratching the porcelain, and wear gloves and eye protection against contaminated water.",
+    "ppe": [
+      "Nitrile Gloves",
+      "Safety Glasses",
+      "Waterproof Apron"
+    ],
+    "steps": [
+      "Lay down absorbent pads, put on gloves and eye protection, and confirm no chemicals have been poured in the bowl.",
+      "Retract the auger cable fully and seat the bent tip and rubber guard into the bowl outlet.",
+      "Crank the handle clockwise while pushing the cable down to feed it through the trap.",
+      "Work the cable back and forth through the blockage, then retract it slowly while still cranking.",
+      "Flush test the toilet two or three times, clean and disinfect the auger, and report if the blockage is further down the line."
+    ]
+  },
+  {
+    "id": "elec-122",
+    "title": "Upgrading a Split-Load Consumer Unit to RCBOs with Surge Protection",
+    "category": "Electrical",
+    "subject": "Distribution Boards",
+    "level": "Intermediate",
+    "source": "YouTube / Field Guild",
+    "channel": "Gareth Burgess",
+    "publishDate": "2026-10-26",
+    "duration": "18:38",
+    "embedUrl": "https://www.youtube.com/embed/DF3dz0tRoHA",
+    "isNew": true,
+    "summary": "An electrician upgrades an existing split RCD/MCB 230V consumer unit by fitting individual RCBOs for each circuit and adding a surge protection device.",
+    "safety": "Have the supply isolated at the main switch or service head, lock off and prove dead with a GS38 voltage indicator and proving unit, and complete insulation resistance, polarity and RCD tests before re-energising.",
+    "ppe": [
+      "Insulated Gloves",
+      "Safety Glasses",
+      "Insulated Safety Shoes"
+    ],
+    "steps": [
+      "Isolate the main supply, lock off, prove dead at the board and label every circuit before disconnecting.",
+      "Remove the existing RCDs and MCBs, noting circuit ratings and neutral positions for each way.",
+      "Fit the RCBOs with the correct rating and curve per circuit, connecting each circuit's line, neutral and functional earth.",
+      "Install the SPD with short, direct conductors to the busbar and earth bar, then torque all terminals to spec.",
+      "Carry out insulation resistance and polarity tests, energise, then test each RCBO's trip time and update the circuit chart."
+    ]
   }
 ];

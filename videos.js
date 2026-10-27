@@ -1744,5 +1744,87 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Install the SPD with short, direct conductors to the busbar and earth bar, then torque all terminals to spec.",
       "Carry out insulation resistance and polarity tests, energise, then test each RCBO's trip time and update the circuit chart."
     ]
+  },
+  {
+    "id": "hvac-121",
+    "title": "How Air Conditioning Manifold Gauges Work for Beginners",
+    "category": "HVAC",
+    "subject": "Tools & Instruments",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "HVAC School",
+    "publishDate": "2026-10-27",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/oBUHhBzIe-E",
+    "isNew": true,
+    "summary": "Explains the parts of an HVAC manifold gauge set (high, low and center ports, valves, hoses, core depressors and sight glass) and how technicians use the readings to find saturation pressures and temperatures when charging or recovering refrigerant.",
+    "safety": "Wear gloves and eye protection when connecting hoses because liquid refrigerant causes frostbite, keep valve handles closed until hoses are secured, and hang the manifold clear of the condenser fan and coil.",
+    "ppe": [
+      "Safety Glasses",
+      "Refrigerant-Rated Gloves",
+      "Safety Shoes"
+    ],
+    "steps": [
+      "Inspect the manifold, hoses, seals and core depressors for damage, and zero-calibrate the gauges with hoses open to atmosphere.",
+      "Confirm both manifold handles are closed, then connect the blue hose to the suction (low) port and the red hose to the liquid (high) port.",
+      "Hang the manifold safely away from the condenser fan and coil and let the system run to stable conditions.",
+      "Read low- and high-side pressures and convert them to saturation temperatures for the system's refrigerant.",
+      "Disconnect hoses quickly to minimise refrigerant loss, refit the service caps and record the readings on the job sheet."
+    ]
+  },
+  {
+    "id": "plumb-123",
+    "title": "ProPress Copper Press Fitting Installation Guide",
+    "category": "Plumbing",
+    "subject": "Pipe Joining",
+    "level": "Intermediate",
+    "source": "Manufacturer Tech Academy",
+    "channel": "Viega LLC",
+    "publishDate": "2026-10-27",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/FyG5_0ccx2Q",
+    "isNew": true,
+    "summary": "Viega walks through the step-by-step ProPress installation procedure for making flameless press connections on copper water pipe.",
+    "safety": "Isolate and drain the line before cutting, keep fingers clear of the press jaws during the press cycle, and use only the jaws and tool approved for the fitting size.",
+    "ppe": [
+      "Safety Glasses",
+      "Cut-Resistant Gloves",
+      "Safety Shoes"
+    ],
+    "steps": [
+      "Isolate the water supply, drain the section and cut the copper tube square with a tube cutter.",
+      "Ream the inside and outside of the tube end and clean it to remove burrs and debris.",
+      "Check the fitting's sealing element is present and undamaged, then mark the insertion depth on the tube.",
+      "Insert the tube fully to the depth mark and press with the correct size jaw held square to the fitting.",
+      "Inspect every press, restore the supply and pressure-test the joint, checking for leaks before handover."
+    ]
+  },
+  {
+    "id": "elec-123",
+    "title": "How to Check a Three-Phase Motor System: Motor, Isolator, Overloads, Contactor & Fuses",
+    "category": "Electrical",
+    "subject": "Motor Diagnostics",
+    "level": "Advanced",
+    "source": "YouTube / Field Guild",
+    "channel": "Electronic Control Services",
+    "publishDate": "2026-10-27",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/ZLpBbaU-V7g",
+    "isNew": true,
+    "summary": "An instructor shows how to troubleshoot a three-phase motor system by checking each component in sequence: the motor, its isolator/disconnect, overload protection, contactor and fuses.",
+    "safety": "Live diagnostic voltage checks on 400V three-phase must be done only by authorised electricians with CAT III/IV rated meters and GS38 leads; isolate, lock off and prove dead before any resistance or continuity test.",
+    "ppe": [
+      "Arc-Rated Face Shield",
+      "Insulated Gloves",
+      "Arc-Rated Clothing",
+      "Insulated Safety Shoes"
+    ],
+    "steps": [
+      "Measure line-to-line and line-to-earth supply voltage at the isolator and compare all three phases for loss or unbalance.",
+      "Isolate, lock off and prove dead, then check each fuse for continuity and correct rating.",
+      "Inspect contactor contacts for pitting and check the coil voltage and operation.",
+      "Verify the overload relay setting matches motor FLC and test its contacts for continuity.",
+      "Test motor winding resistance phase-to-phase and insulation resistance to earth, then restore and measure running current per phase."
+    ]
   }
 ];

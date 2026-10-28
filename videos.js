@@ -24,7 +24,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-20",
     "duration": "6:12",
     "embedUrl": "https://www.youtube.com/embed/WdS5tlPJGZc",
-    "isNew": true,
+    "isNew": false,
     "summary": "How the compressor, condenser, metering device and evaporator move heat, and what high side / low side pressures mean on a working system.",
     "safety": "Never open refrigerant circuits during training walk-downs; observe only on isolated, labelled demo units.",
     "ppe": [
@@ -130,7 +130,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-20",
     "duration": "10:25",
     "embedUrl": "https://www.youtube.com/embed/itoro65YpZM",
-    "isNew": true,
+    "isNew": false,
     "summary": "Cutting, deburring and flaring copper with the correct flare tool, then torquing the flare nut so the joint does not leak.",
     "safety": "Wear eye protection when cutting and flaring copper. Never use an adjustable wrench in place of a torque wrench on flare nuts.",
     "ppe": [
@@ -266,7 +266,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-20",
     "duration": "6:04",
     "embedUrl": "https://www.youtube.com/embed/gHD5UA9CikU",
-    "isNew": true,
+    "isNew": false,
     "summary": "Flowing low-pressure nitrogen through the pipe while brazing so no oxide scale forms inside the refrigerant circuit.",
     "safety": "Hot work permit required. Keep a fire extinguisher at hand, shield nearby surfaces, and ventilate the area.",
     "ppe": [
@@ -404,7 +404,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-20",
     "duration": "1:45",
     "embedUrl": "https://www.youtube.com/embed/SYPFon69vKs",
-    "isNew": true,
+    "isNew": false,
     "summary": "Shutting off the supply, dismantling the faucet handle and replacing the worn washer or cartridge.",
     "safety": "Close the isolation valve and release pressure before dismantling. Plug the basin so small parts do not fall in.",
     "ppe": [
@@ -823,7 +823,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-20",
     "duration": "8:08",
     "embedUrl": "https://www.youtube.com/embed/TdUK6RPdIrA",
-    "isNew": true,
+    "isNew": false,
     "summary": "Measuring voltage, resistance, continuity and current with a digital multimeter, and choosing the right range and lead socket.",
     "safety": "Use a CAT III/IV rated meter. Prove the meter on a known source before and after testing (prove-test-prove).",
     "ppe": [
@@ -960,7 +960,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-20",
     "duration": "3:03",
     "embedUrl": "https://www.youtube.com/embed/9x9QdL9N7vc",
-    "isNew": true,
+    "isNew": false,
     "summary": "Power and control wiring for a contactor driving a three-phase motor with start and stop push buttons.",
     "safety": "Work on de-energised panels only. Verify isolation of both power and control supplies.",
     "ppe": [
@@ -1825,6 +1825,88 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Inspect contactor contacts for pitting and check the coil voltage and operation.",
       "Verify the overload relay setting matches motor FLC and test its contacts for continuity.",
       "Test motor winding resistance phase-to-phase and insulation resistance to earth, then restore and measure running current per phase."
+    ]
+  },
+  {
+    "id": "hvac-122",
+    "title": "Full Refrigerant Pump-Down Procedure on an AC Unit",
+    "category": "HVAC",
+    "subject": "Refrigerant Handling",
+    "level": "Intermediate",
+    "source": "YouTube / Field Guild",
+    "channel": "AC Service Tech LLC",
+    "publishDate": "2026-10-28",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/xkQ6cxkaps4",
+    "isNew": true,
+    "summary": "A technician performs a complete pump-down, moving the refrigerant charge into the outdoor unit so the line set or indoor section can be serviced, and explains when pump-down is and isn't appropriate.",
+    "safety": "Never let suction pressure fall into a deep vacuum or run the compressor against a closed liquid valve for long, never bypass pressure switches unattended, and wear gloves and eye protection against refrigerant frostbite.",
+    "ppe": [
+      "Safety Glasses",
+      "Refrigerant-Rated Gloves",
+      "Insulated Safety Shoes"
+    ],
+    "steps": [
+      "Connect a purged manifold gauge set to the suction service port and confirm the system is running normally.",
+      "Front-seat (close) the liquid line service valve while the compressor runs.",
+      "Watch suction pressure fall and stop the compressor at just above 0 psig — do not pull into a vacuum.",
+      "Immediately front-seat the suction service valve and isolate power to the outdoor unit.",
+      "Confirm pressure holds steady on the isolated section before opening it, then record the work."
+    ]
+  },
+  {
+    "id": "plumb-124",
+    "title": "Sewer Inspection Cameras & Locators Training",
+    "category": "Plumbing",
+    "subject": "Drain Diagnostics",
+    "level": "Advanced",
+    "source": "ToolTech & Equipment Pro",
+    "channel": "Herc Rentals",
+    "publishDate": "2026-10-28",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/d9FXqYAuctg",
+    "isNew": true,
+    "summary": "A Hathorn equipment trainer shows how push-rod sewer inspection cameras and 512 Hz sonde locators are used to view, record and pinpoint the location and condition of buried drain pipe.",
+    "safety": "Use only properly vented access points, keep the reel on a GFCI-protected supply, never push the camera through blockages or live cutters, and disinfect the push cable after every job.",
+    "ppe": [
+      "Nitrile Gloves under Work Gloves",
+      "Safety Glasses",
+      "Safety Shoes",
+      "High-Visibility Vest"
+    ],
+    "steps": [
+      "Locate and open the cleanout or manhole, check for gases and set up barriers around the access point.",
+      "Set up the reel and monitor on a GFCI supply, set footage counter to zero and start recording.",
+      "Feed the camera slowly, noting distance and defects such as roots, offsets, bellies or cracks.",
+      "Stop at the defect, switch on the 512 Hz sonde and use the locator to mark its position and depth on the surface.",
+      "Retrieve and clean the cable, then save the video and issue a report with defect locations and recommendations."
+    ]
+  },
+  {
+    "id": "elec-124",
+    "title": "How to Wire a Fused Connection Unit (FCU / Fused Spur)",
+    "category": "Electrical",
+    "subject": "Wiring Accessories",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "Allen Goldsmith",
+    "publishDate": "2026-10-28",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/aozrvL0Jt9w",
+    "isNew": true,
+    "summary": "A UK electrician demonstrates how to safely terminate a 13A BS 1363 fused connection unit, connecting the supply and load sides correctly and fitting the right fuse.",
+    "safety": "Safely isolate, lock off and prove dead with an approved voltage indicator before removing the FCU, and fit a fuse rated for the connected appliance, never higher than 13A.",
+    "ppe": [
+      "Insulated Gloves",
+      "Safety Glasses",
+      "Insulated Safety Shoes"
+    ],
+    "steps": [
+      "Isolate the circuit at the DB, lock off and prove dead at the FCU with a GS38 tester.",
+      "Identify the supply (from the ring/radial) and load (to the appliance) cables.",
+      "Strip and terminate supply L and N in the SUPPLY terminals and load L and N in the LOAD terminals.",
+      "Sleeve and connect all CPCs to the earth terminal and the back box, then fit the faceplate without trapping cables.",
+      "Fit the correctly rated fuse, restore power and test polarity and operation of the appliance."
     ]
   }
 ];

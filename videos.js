@@ -1268,7 +1268,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-21",
     "duration": "4:03",
     "embedUrl": "https://www.youtube.com/embed/PGC2gOkOSTk",
-    "isNew": true,
+    "isNew": false,
     "summary": "A lint-clogged condenser is foam-cleaned and rinsed inside-out, with before-and-after readings showing lower head pressure and discharge air temperature.",
     "safety": "Isolate and lock out the outdoor unit at the disconnect, wear chemical-resistant gloves and eye protection with coil cleaner, and avoid bending fins with high-pressure water.",
     "ppe": [
@@ -1295,7 +1295,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-21",
     "duration": "2:30",
     "embedUrl": "https://www.youtube.com/embed/H8beYeGxgJg",
-    "isNew": true,
+    "isNew": false,
     "summary": "Amtrol shows how to measure line pressure, set the tank precharge to match, and install a Therm-X-Trol expansion tank on the cold supply to a water heater.",
     "safety": "Isolate the cold supply and switch off the water heater before cutting in, relieve system pressure, and support the tank so its weight is not carried by the pipework.",
     "ppe": [
@@ -1322,7 +1322,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-21",
     "duration": "3:30",
     "embedUrl": "https://www.youtube.com/embed/Y7NPT8sQINY",
-    "isNew": true,
+    "isNew": false,
     "summary": "Measuring Zs on 16A single-phase and 400V three-phase industrial socket outlets, testing L1, L2 and L3 in turn and comparing results with the protective device's maximum Zs.",
     "safety": "Zs testing is a live test: use a calibrated loop tester with GS38-compliant leads, confirm the RCD and circuit details first, and keep others clear of the outlet under test.",
     "ppe": [
@@ -1350,7 +1350,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-22",
     "duration": "9:10",
     "embedUrl": "https://www.youtube.com/embed/QpzOSQt2fpI",
-    "isNew": true,
+    "isNew": false,
     "summary": "Calculating the extra refrigerant for the installed line length from the nameplate and weighing it into a ductless mini-split with a scale.",
     "safety": "Wear eye protection and refrigerant gloves; keep the cylinder upright on the scale and never overcharge beyond the calculated weight.",
     "ppe": [
@@ -1377,7 +1377,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-22",
     "duration": "5:57",
     "embedUrl": "https://www.youtube.com/embed/w21qa2bMUh8",
-    "isNew": true,
+    "isNew": false,
     "summary": "Testing and setting the air pre-charge of a pressure tank relative to the pump cut-in pressure to stop short-cycling of booster pumps.",
     "safety": "Isolate and lock out the pump, close the tank isolation valve and drain the water side before checking air pressure.",
     "ppe": [
@@ -1404,7 +1404,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-22",
     "duration": "9:21",
     "embedUrl": "https://www.youtube.com/embed/ggJo6m8NZtA",
-    "isNew": true,
+    "isNew": false,
     "summary": "Core electrical hazards (shock, arc flash, fire), safe distances and what non-electrical staff must and must not do around electrical equipment.",
     "safety": "Never open panels or touch electrical equipment unless trained and authorised; report damaged cables, sockets and panels immediately.",
     "ppe": [
@@ -1907,6 +1907,88 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Strip and terminate supply L and N in the SUPPLY terminals and load L and N in the LOAD terminals.",
       "Sleeve and connect all CPCs to the earth terminal and the back box, then fit the faceplate without trapping cables.",
       "Fit the correctly rated fuse, restore power and test polarity and operation of the appliance."
+    ]
+  },
+  {
+    "id": "hvac-123",
+    "title": "What Should the Air Delta T Be? Measuring AC Air Temperature Split",
+    "category": "HVAC",
+    "subject": "Fundamentals",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "HVAC School",
+    "publishDate": "2026-10-30",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/_pD-rRCNv8k",
+    "isNew": true,
+    "summary": "Bryan Orr shows how to measure return and supply air temperatures across the evaporator coil and explains why the correct delta T depends on humidity, airflow and equipment rather than a fixed 20-degree rule.",
+    "safety": "Keep hands and probes clear of the blower and moving parts, isolate power before opening any panel beyond the access port, and work from a stable ladder at high-wall or ceiling units.",
+    "ppe": [
+      "Safety Glasses",
+      "Work Gloves",
+      "Safety Shoes"
+    ],
+    "steps": [
+      "Confirm the unit has run in cooling for at least 10–15 minutes with a clean filter fitted.",
+      "Place a temperature probe in the return air close to the coil inlet, away from outside air leaks.",
+      "Place a second probe in the supply air close to the coil outlet, out of direct line of the coil face.",
+      "Record return and supply dry-bulb (and wet-bulb if available) and calculate the temperature split.",
+      "Compare the result with the expected range for the indoor humidity and log it with superheat/subcooling readings on the job card."
+    ]
+  },
+  {
+    "id": "plumb-125",
+    "title": "Joining PVC Pipe & Fittings with Primer and Solvent Cement",
+    "category": "Plumbing",
+    "subject": "Pipe Jointing",
+    "level": "Intermediate",
+    "source": "Manufacturer Tech Academy",
+    "channel": "TChristyEnterprises",
+    "publishDate": "2026-10-30",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/Zirp8vqApQc",
+    "isNew": true,
+    "summary": "A solvent cement manufacturer demonstrates the professional procedure for cutting, deburring, priming and solvent-welding PVC pipe and fittings for plumbing and drainage lines.",
+    "safety": "Primers and solvent cements are flammable and give off strong vapours, so work in a well-ventilated area away from ignition sources, avoid skin and eye contact, and close containers when not in use.",
+    "ppe": [
+      "Chemical-Resistant Gloves",
+      "Safety Glasses",
+      "Respirator (Organic Vapour) in confined areas"
+    ],
+    "steps": [
+      "Cut the pipe square with a PVC cutter or saw and remove burrs and filings inside and out.",
+      "Dry-fit the pipe and fitting and mark the insertion depth and alignment.",
+      "Apply primer to the fitting socket and pipe end to soften the surface.",
+      "While the primer is still wet, apply an even coat of solvent cement to the pipe and a thinner coat in the socket.",
+      "Push in fully with a quarter turn, hold for about 30 seconds, wipe excess and respect the cure time before pressure or flow testing."
+    ]
+  },
+  {
+    "id": "elec-125",
+    "title": "Ze and Prospective Fault Current (PFC) Tests on a 3-Phase Distribution Board",
+    "category": "Electrical",
+    "subject": "Inspection & Testing",
+    "level": "Advanced",
+    "source": "YouTube / Field Guild",
+    "channel": "Proactive Technical Training PTT",
+    "publishDate": "2026-10-30",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/g4oOp2KFXqo",
+    "isNew": true,
+    "summary": "Trainer Sam Craig demonstrates live measurement of external earth fault loop impedance (Ze) and prospective fault current (PSCC/PEFC) at the origin of a three-phase 400V distribution board.",
+    "safety": "These are live tests at the supply origin, so only competent, authorised electricians should carry them out using GS38-compliant leads, with the main switch isolated and the earthing conductor disconnected only while the installation is safely isolated and reconnected immediately after.",
+    "ppe": [
+      "Arc-Rated Face Shield / Safety Glasses",
+      "Insulated Gloves (Class 0)",
+      "Arc-Rated FR Clothing",
+      "Insulated Safety Shoes"
+    ],
+    "steps": [
+      "Obtain a permit, isolate the installation at the main switch and verify the loop/PFC tester and GS38 leads are in good condition.",
+      "For Ze, disconnect the main earthing conductor from the MET and measure line-to-earth on the supply side of the main switch.",
+      "Reconnect the earthing conductor immediately and confirm it is tight before continuing.",
+      "Measure PSCC line-to-neutral and PEFC line-to-earth, and record line-to-line PFC (or double the L-N value) for the three-phase supply.",
+      "Record the highest PFC and Ze on the schedule of test results and check device breaking capacities and Ze against the supplier limits."
     ]
   }
 ];

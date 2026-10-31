@@ -1430,7 +1430,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-23",
     "duration": "10:00",
     "embedUrl": "https://www.youtube.com/embed/zOd2G10F-YY",
-    "isNew": true,
+    "isNew": false,
     "summary": "Using gauge pressures, saturation temperatures, superheat and subcooling to tell a liquid line restriction apart from low indoor airflow or a low refrigerant charge.",
     "safety": "Wear eye protection and refrigerant gloves when connecting gauges, keep clear of fan blades and live terminals, and isolate power before opening electrical panels.",
     "ppe": [
@@ -1457,7 +1457,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-23",
     "duration": "5:00",
     "embedUrl": "https://www.youtube.com/embed/ae0TzEAzDZw",
-    "isNew": true,
+    "isNew": false,
     "summary": "Removing a toilet, cleaning the flange and fitting a new wax ring seal to stop leaks and sewer odour at the base of the pan.",
     "safety": "Isolate and drain the water supply first, lift the pan with a proper two-hand grip or a second person, and wear gloves when handling the soiled flange.",
     "ppe": [
@@ -1484,7 +1484,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-23",
     "duration": "13:30",
     "embedUrl": "https://www.youtube.com/embed/UesYHVsZD-E",
-    "isNew": true,
+    "isNew": false,
     "summary": "Three-stage dead test of a BS 7671 ring final circuit: end-to-end r1/rn/r2 readings, figure-of-8 cross-connection checks at every socket and fused spur, and recording R1+R2 on the test sheet.",
     "safety": "Safely isolate, lock off and prove dead with an approved voltage indicator before disconnecting the ring conductors, and re-prove your tester on a known source.",
     "ppe": [
@@ -1989,6 +1989,87 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Reconnect the earthing conductor immediately and confirm it is tight before continuing.",
       "Measure PSCC line-to-neutral and PEFC line-to-earth, and record line-to-line PFC (or double the L-N value) for the three-phase supply.",
       "Record the highest PFC and Ze on the schedule of test results and check device breaking capacities and Ze against the supplier limits."
+    ]
+  },
+  {
+    "id": "hvac-124",
+    "title": "Checking Total External Static Pressure (TESP) with a Manometer",
+    "category": "HVAC",
+    "subject": "Airflow Testing",
+    "level": "Intermediate",
+    "source": "YouTube / Field Guild",
+    "channel": "AllTech Services",
+    "publishDate": "2026-10-31",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/RdnevfMde6g",
+    "isNew": true,
+    "summary": "Shows where to drill static pressure test ports, how to connect a manometer and read total external static pressure, and what high or low readings reveal about filters, ductwork and the blower.",
+    "safety": "Isolate power to the air handler before drilling test ports, keep hands and probes clear of the blower and moving parts when the unit runs, and seal every test hole with a proper plug after the test.",
+    "ppe": [
+      "Safety Glasses",
+      "Cut-Resistant Gloves",
+      "Dust Mask (when drilling)"
+    ],
+    "steps": [
+      "Confirm the filter and coil condition, then isolate power and drill test ports in the supply and return plenums near the air handler.",
+      "Zero the digital manometer and connect the hoses and static pressure tips to the supply (+) and return (-) ports.",
+      "Restore power and run the blower at its normal cooling speed with all grilles and dampers in their normal position.",
+      "Read total external static pressure and compare it with the rated maximum on the unit nameplate or fan table.",
+      "Record the reading, investigate high values (dirty filter, restrictive duct, closed dampers) and seal all test ports with plugs."
+    ]
+  },
+  {
+    "id": "plumb-126",
+    "title": "Servicing and Repairing a Thermostatic Mixing Valve (TMV / Blending Valve)",
+    "category": "Plumbing",
+    "subject": "Hot Water Safety Valves",
+    "level": "Advanced",
+    "source": "YouTube / Field Guild",
+    "channel": "Sebastian Hibbert",
+    "publishDate": "2026-10-31",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/E97KrjY9Q4A",
+    "isNew": true,
+    "summary": "A plumber strips down a thermostatic mixing (blending) valve, cleans and services the internal parts and reassembles it to restore safe, stable mixed-water temperature.",
+    "safety": "Isolate and drain both hot and cold supplies before opening the valve, beware of scalding stored hot water, and always re-test the mixed outlet temperature and cold-supply fail-safe before handing back to users.",
+    "ppe": [
+      "Safety Glasses",
+      "Heat-Resistant Gloves",
+      "Safety Shoes"
+    ],
+    "steps": [
+      "Record the current mixed outlet temperature, then isolate the hot and cold supplies at the TMV service valves and open the outlet to relieve pressure.",
+      "Remove the valve head or cartridge and inspect the thermostatic element, filters, seals and check valves for scale or debris.",
+      "Descale and clean the strainers and cartridge, and replace worn O-rings, seals or check valves with manufacturer parts.",
+      "Reassemble the valve, restore the supplies slowly and check all joints for leaks.",
+      "Set the mixed outlet to the specified temperature with a calibrated thermometer, perform the cold-supply fail-safe test and record results on the TMV service log."
+    ]
+  },
+  {
+    "id": "elec-126",
+    "title": "How to Fit or Change a 13 Amp BS 1363 Plug Top",
+    "category": "Electrical",
+    "subject": "Wiring Accessories",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "GSH Electrical",
+    "publishDate": "2026-10-31",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/maFAKU1r_Jw",
+    "isNew": true,
+    "summary": "An apprentice-training demonstration of stripping a 3-core flexible cord and wiring it correctly into a BS 1363 13A plug top with the right BS 1362 fuse fitted.",
+    "safety": "Unplug and inspect the appliance before work, never work on a live flex, select the correct BS 1362 fuse (3A, 5A or 13A) for the appliance rating, and make sure the cord grip clamps the outer sheath, not the cores.",
+    "ppe": [
+      "Safety Glasses",
+      "Insulated Hand Tools",
+      "Work Gloves"
+    ],
+    "steps": [
+      "Disconnect the appliance from the supply, check the flex for damage and note the appliance rating to choose the BS 1362 fuse.",
+      "Open the plug top and strip the outer sheath so it reaches the cord grip, then cut the cores to length for each terminal.",
+      "Strip the core insulation and connect brown to L (fused), blue to N and green/yellow to E, leaving the earth core slightly longer.",
+      "Tighten the terminal screws, secure the outer sheath in the cord grip and fit the correct fuse.",
+      "Close the plug top, then carry out a visual check and a PAT/continuity test before returning the appliance to service."
     ]
   }
 ];

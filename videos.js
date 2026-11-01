@@ -1511,7 +1511,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-24",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/HcJL4BDJJy8",
-    "isNew": true,
+    "isNew": false,
     "summary": "Three ways to tell whether an AC run capacitor is good, weak or failed: measuring it under load with the unit running, bench testing it with a capacitance meter, and checking it visually for bulging or leaks.",
     "safety": "Isolate and lock off the outdoor unit before touching the capacitor, discharge it safely with a resistor tool before handling, and keep hands clear of live terminals and the fan during any under-load test.",
     "ppe": [
@@ -1538,7 +1538,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-24",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/7XpeP_cvvhg",
-    "isNew": true,
+    "isNew": false,
     "summary": "Zurn's step-by-step installation of the Wilkins NR3XL pressure reducing valve on a water supply line, including the recommended tools and setting the outlet pressure.",
     "safety": "Isolate and drain the supply line before cutting in, relieve residual pressure through a downstream tap, and check that the system is protected against thermal expansion once the PRV is installed.",
     "ppe": [
@@ -1565,7 +1565,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-24",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/0SS4bdnnjeM",
-    "isNew": true,
+    "isNew": false,
     "summary": "How to carry out an insulation resistance test on a 400V three-phase circuit with an insulation tester, testing between all live conductors and to earth and judging the readings against the minimum values.",
     "safety": "Safely isolate, lock off and prove the circuit dead, disconnect or protect sensitive equipment and surge devices before applying the test voltage, and discharge the circuit after each test.",
     "ppe": [
@@ -2070,6 +2070,88 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Strip the core insulation and connect brown to L (fused), blue to N and green/yellow to E, leaving the earth core slightly longer.",
       "Tighten the terminal screws, secure the outer sheath in the cord grip and fit the correct fuse.",
       "Close the plug top, then carry out a visual check and a PAT/continuity test before returning the appliance to service."
+    ]
+  },
+  {
+    "id": "hvac-125",
+    "title": "How and When to Change an AC Contactor",
+    "category": "HVAC",
+    "subject": "Electrical Components",
+    "level": "Intermediate",
+    "source": "YouTube / Field Guild",
+    "channel": "HVAC School",
+    "publishDate": "2026-11-01",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/I53nbpTHmVk",
+    "isNew": true,
+    "summary": "An HVAC instructor coaches an apprentice through spotting a pitted contactor during maintenance, isolating power, replacing the contactor, checking the wiring against the schematic and monitoring compressor amps on start-up.",
+    "safety": "Isolate both the outdoor disconnect and the indoor unit breaker because the contactor coil is fed by control voltage from indoors, then prove dead with a tested meter before touching any terminals.",
+    "ppe": [
+      "Safety Glasses",
+      "Insulated Gloves",
+      "Insulated Hand Tools"
+    ],
+    "steps": [
+      "Inspect the contactor during maintenance for pitted or burnt contacts, overheating and voltage drop across the contacts.",
+      "Switch off and lock out the outdoor disconnect and the indoor breaker, then prove dead on line and coil terminals with a meter.",
+      "Photograph or label the wiring, remove the old contactor and inspect conductors and spade terminals for heat damage.",
+      "Mount the matching replacement contactor securely and reconnect line, load and coil wires firmly according to the unit schematic.",
+      "Restore power, call for cooling and confirm the contactor pulls in cleanly while monitoring compressor current with a clamp meter."
+    ]
+  },
+  {
+    "id": "plumb-127",
+    "title": "RIDGID K-400 Drum Machine: Machine and Work Area Set-Up for Drain Cleaning",
+    "category": "Plumbing",
+    "subject": "Drain Cleaning",
+    "level": "Advanced",
+    "source": "ToolTech & Equipment Pro",
+    "channel": "RIDGID Tools",
+    "publishDate": "2026-11-01",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/FbXT3xyDXFk",
+    "isNew": true,
+    "summary": "RIDGID's official guide to setting up the K-400 drum drain-cleaning machine: assessing the drain, preparing the work area, positioning the machine, selecting and fitting the cutting tool and connecting the foot switch and power safely.",
+    "safety": "Wear safety glasses and RIDGID drain-cleaning gloves over liquid-barrier gloves, check the drain for chemicals first, keep the drum within 2 ft of the access point to prevent cable kinking, and plug into a grounded outlet with dry hands.",
+    "ppe": [
+      "Safety Glasses",
+      "Drain Cleaning Gloves",
+      "Nitrile/Latex Liner Gloves",
+      "Safety Boots"
+    ],
+    "steps": [
+      "Inspect the drain: find access points, pipe size and length, the nature of the blockage and whether any drain chemicals are present.",
+      "Barrier off the work area, lay protective covers and remove the fixture if needed so the cable is never fed through a fixture.",
+      "Position the machine with the drum opening within 2 ft of the drain access, extending the access with pipe if necessary.",
+      "Select the right cutter (start with a straight or bulb auger if the blockage is unknown) and snap it into the coupler, checking the retaining plunger.",
+      "Place the foot switch within reach, confirm the FOR/OFF/REV switch is OFF, then plug into a grounded outlet with dry hands before starting."
+    ]
+  },
+  {
+    "id": "elec-127",
+    "title": "UK Lighting Circuits Part 1: Basic Concepts, Ceiling Rose and Light Switch Connections",
+    "category": "Electrical",
+    "subject": "Lighting Circuits",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "John Ward (jwflame)",
+    "publishDate": "2026-11-01",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/dnpV781c6Sw",
+    "isNew": true,
+    "summary": "Explains the basics of UK (BS 7671, 230V) lighting circuits, including the permanent line, neutral, switch line and CPC, and how they connect at a loop-in ceiling rose and a one-way light switch.",
+    "safety": "Isolate and lock off the lighting MCB, prove dead with an approved voltage indicator and proving unit, and sleeve the blue switch-line conductor brown because it is a line conductor, not a neutral.",
+    "ppe": [
+      "Safety Glasses",
+      "Insulated Screwdrivers",
+      "Voltage Indicator & Proving Unit"
+    ],
+    "steps": [
+      "Isolate the lighting circuit at the distribution board, lock off and prove dead at the ceiling rose and switch.",
+      "Identify the conductors at the loop-in rose: permanent line in/out, neutrals, the switch drop and the CPCs.",
+      "Connect the permanent line to the switch common (COM) and the returning switch line to L1, sleeving it brown at both ends.",
+      "Terminate the pendant flex neutral and switch line at the rose and sleeve all CPCs green/yellow into the earth terminal.",
+      "Refit the covers, restore power and check the switch operates the lamp, then record continuity and polarity tests."
     ]
   }
 ];

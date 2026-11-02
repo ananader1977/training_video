@@ -1593,7 +1593,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-25",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/ADVMXANhoz4",
-    "isNew": true,
+    "isNew": false,
     "summary": "Explains why a single-speed AC with a TXV is charged by subcooling but total superheat must also be checked to confirm the system is operating correctly and no other fault is hiding.",
     "safety": "Only EPA/608-certified (or locally licensed) technicians should connect gauges; wear eye and hand protection against refrigerant burns and keep clear of rotating fans and live terminals in the condenser.",
     "ppe": [
@@ -1620,7 +1620,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-25",
     "duration": "9:24",
     "embedUrl": "https://www.youtube.com/embed/geckSyt5LKs",
-    "isNew": true,
+    "isNew": false,
     "summary": "A Grundfos service specialist shows how to commission and operate a CME booster pump, including setting pressure, start/stop, sensor errors, dry-running protection, tank precharge and servicing.",
     "safety": "Isolate and lock off the pump's electrical supply and close the isolating valves before opening the pump or tank, and release system pressure fully before removing sensors or fittings.",
     "ppe": [
@@ -1648,7 +1648,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-25",
     "duration": "8:00",
     "embedUrl": "https://www.youtube.com/embed/opHtgbcicTk",
-    "isNew": true,
+    "isNew": false,
     "summary": "Walks through a complete safe isolation procedure on a 230V single-phase installation: identify the circuit, isolate, lock off, prove the tester, test dead and re-prove the tester.",
     "safety": "Never work on a circuit until it is isolated, locked off with your own lock and key, and proven dead with a GS38-compliant approved voltage indicator checked on a proving unit before and after the test.",
     "ppe": [
@@ -2152,6 +2152,88 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Connect the permanent line to the switch common (COM) and the returning switch line to L1, sleeving it brown at both ends.",
       "Terminate the pendant flex neutral and switch line at the rose and sleeve all CPCs green/yellow into the earth terminal.",
       "Refit the covers, restore power and check the switch operates the lamp, then record continuity and polarity tests."
+    ]
+  },
+  {
+    "id": "hvac-126",
+    "title": "Testing if a Compressor is Shorted to Ground, Open, or Overload Tripped",
+    "category": "HVAC",
+    "subject": "Electrical Diagnostics",
+    "level": "Advanced",
+    "source": "YouTube / Field Guild",
+    "channel": "AC Service Tech LLC",
+    "publishDate": "2026-11-02",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/EvzwyDl4Fgg",
+    "isNew": true,
+    "summary": "Shows how to measure resistance across single-phase and 3-phase compressor terminals to find windings shorted to ground, open windings, a tripped internal overload or a bad connection, and shows the inside of a burned-out compressor.",
+    "safety": "Lock off the disconnect, prove no voltage at the contactor and discharge the capacitor before touching the terminals, wait for inverter DC capacitors to discharge, and treat a burned-out compressor as acid-contaminated.",
+    "ppe": [
+      "Safety Glasses",
+      "Insulated Gloves",
+      "Lockout/Tagout Kit",
+      "Multimeter (Ohms)"
+    ],
+    "steps": [
+      "Confirm no voltage at the contactor, isolate at the disconnect and lock off.",
+      "Photograph or label the wires, then disconnect the compressor leads from the contactor and the capacitor Herm tab.",
+      "Measure ohms across all three terminal pairs: common-to-run is lowest, common-to-start is middle, start-to-run is highest; on a 3-phase compressor all three should match.",
+      "If a pair reads OL, let the compressor cool and retest; a reading that stays OL points to open windings, not a tripped internal overload.",
+      "Measure from clean copper tube to each lead and terminal: anything other than OL means a short to ground, so condemn the compressor and check for burnout."
+    ]
+  },
+  {
+    "id": "plumb-128",
+    "title": "How to Easily Maintain a Fluidmaster Toilet Fill Valve",
+    "category": "Plumbing",
+    "subject": "Toilets & Flushing",
+    "level": "Beginner",
+    "source": "Manufacturer Tech Academy",
+    "channel": "Fluidmaster",
+    "publishDate": "2026-11-02",
+    "duration": "2:22",
+    "embedUrl": "https://www.youtube.com/embed/AabLItDN-qk",
+    "isNew": true,
+    "summary": "Fluidmaster shows how to inspect a toilet fill valve for wear, clean off mineral build-up, flush debris from the valve seat and replace worn parts on schedule.",
+    "safety": "Shut off the toilet supply valve before opening the fill valve, check the connector for leaks afterwards, and do not use bleach or chlorine in-tank tablets, which damage tank parts and can cause flooding.",
+    "ppe": [
+      "Nitrile Gloves",
+      "Safety Glasses",
+      "Non-Slip Footwear"
+    ],
+    "steps": [
+      "Inspect the fill valve: replace it if the body is bleached or faded, or if there is rust above the water line or on the cap lever arm.",
+      "Check the water supply connector for leaks and replace it if worn or more than 5 years old.",
+      "Clean mineral build-up with vinegar and an old toothbrush, then wash with warm soapy water and rinse.",
+      "If the valve will not shut off, remove the cap, hold an inverted cup over the valve body, run the water 3-4 seconds twice to flush debris, then clean and refit the seal and cap.",
+      "Replace the top cap assembly and the refill tube and clip every 5 years, then restore water and confirm the valve fills and shuts off."
+    ]
+  },
+  {
+    "id": "elec-128",
+    "title": "How to Strip a Steel Wire Armoured (SWA) Cable and Fit a Gland",
+    "category": "Electrical",
+    "subject": "Wiring Accessories",
+    "level": "Intermediate",
+    "source": "YouTube / Field Guild",
+    "channel": "Trade Skills 4U",
+    "publishDate": "2026-11-02",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/Qep-3PY_pQM",
+    "isNew": true,
+    "summary": "A Trade Skills 4U tutor demonstrates how to size up, strip and fit a gland to a steel wire armoured (SWA) cable.",
+    "safety": "Work only on a cable that is isolated, locked off and proved dead, wear gloves against sharp cut armour wires, and make sure the gland earths the armour to the 230/400V installation's earthing system.",
+    "ppe": [
+      "Safety Glasses",
+      "Cut-Resistant Gloves",
+      "Voltage Indicator & Proving Unit"
+    ],
+    "steps": [
+      "Isolate and lock off the circuit and prove the cable dead before any cutting.",
+      "Offer the gland up to the enclosure and mark the cable for the outer sheath and armour strip lengths.",
+      "Score and remove the outer sheath without nicking the armour wires, then cut the armour to length.",
+      "Slide on the shroud and gland, spread the armour evenly over the cone and tighten the gland so the armour is clamped firmly.",
+      "Fit the gland to the enclosure with its earth tag, connect the core conductors, then test continuity of the armour and insulation resistance before energising."
     ]
   }
 ];

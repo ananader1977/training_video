@@ -1675,7 +1675,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-26",
     "duration": "5:18",
     "embedUrl": "https://www.youtube.com/embed/OMRExEe2aM8",
-    "isNew": true,
+    "isNew": false,
     "summary": "A technician diagnoses a failed condenser fan motor by checking supply voltage at the motor, the run capacitor and the contactor, then testing the motor windings with an ohmmeter, with real cases of debris and moisture damage.",
     "safety": "Isolate and lock off the outdoor unit disconnect, discharge the capacitor with an insulated resistor tool before touching terminals, and keep hands clear of the fan blade until it has fully stopped.",
     "ppe": [
@@ -1702,7 +1702,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-26",
     "duration": "4:17",
     "embedUrl": "https://www.youtube.com/embed/OSIpZzs8NRA",
-    "isNew": true,
+    "isNew": false,
     "summary": "A master plumber explains the parts of a closet auger and demonstrates how to feed and crank it through the toilet trap to clear a stubborn blockage that a plunger cannot shift.",
     "safety": "Do not use chemical drain cleaners before augering because of splash-back burns, keep the rubber guard against the bowl to avoid scratching the porcelain, and wear gloves and eye protection against contaminated water.",
     "ppe": [
@@ -1729,7 +1729,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-26",
     "duration": "18:38",
     "embedUrl": "https://www.youtube.com/embed/DF3dz0tRoHA",
-    "isNew": true,
+    "isNew": false,
     "summary": "An electrician upgrades an existing split RCD/MCB 230V consumer unit by fitting individual RCBOs for each circuit and adding a surge protection device.",
     "safety": "Have the supply isolated at the main switch or service head, lock off and prove dead with a GS38 voltage indicator and proving unit, and complete insulation resistance, polarity and RCD tests before re-energising.",
     "ppe": [
@@ -2234,6 +2234,88 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Score and remove the outer sheath without nicking the armour wires, then cut the armour to length.",
       "Slide on the shroud and gland, spread the armour evenly over the cone and tighten the gland so the armour is clamped firmly.",
       "Fit the gland to the enclosure with its earth tag, connect the core conductors, then test continuity of the armour and insulation resistance before energising."
+    ]
+  },
+  {
+    "id": "hvac-127",
+    "title": "Reading AC Rating Plates: Size, Refrigerant, Pressure & Electrical Data",
+    "category": "HVAC",
+    "subject": "Fundamentals",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "AC Service Tech LLC",
+    "publishDate": "2026-11-03",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/4dkY0zs7sBQ",
+    "isNew": true,
+    "summary": "Craig Migliaccio walks through the outdoor unit and indoor coil rating plates, covering capacity, refrigerant charge, target subcooling, RLA, LRA, FLA, design pressures and maximum fuse and breaker size.",
+    "safety": "Read plates with the unit isolated if panels must be removed, confirm the plate voltage and frequency match the local 230/400V 50Hz supply as the video shows a US 60Hz unit, and never pressure test above the lowest maximum design pressure of the indoor coil.",
+    "ppe": [
+      "Safety Glasses",
+      "Work Gloves",
+      "Safety Shoes"
+    ],
+    "steps": [
+      "Locate the outdoor unit plate and read the model number to find the capacity in thousands of BTU/hr, with 12,000 BTU/hr equal to one ton.",
+      "Note the refrigerant type, factory charge and target subcooling before connecting any gauges.",
+      "Check the supply voltage, phase and frequency against the plate, then record compressor RLA and LRA and fan motor FLA.",
+      "Confirm the minimum circuit amps and maximum fuse or breaker size against the installed cable and protective device.",
+      "Read the indoor coil plate, confirm its capacity, refrigerant and metering device match the outdoor unit, and use its lower maximum design pressure as the pressure test limit."
+    ]
+  },
+  {
+    "id": "plumb-129",
+    "title": "How Compression Fittings Work: Joining Copper Pipe and MLCP",
+    "category": "Plumbing",
+    "subject": "Pipe Joining",
+    "level": "Intermediate",
+    "source": "YouTube / Field Guild",
+    "channel": "Allen Hart",
+    "publishDate": "2026-11-03",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/yvTEb2-Iivo",
+    "isNew": true,
+    "summary": "A trainee-level tutorial showing how the tapered seat, olive and nut seal a compression joint on copper pipe, with a short section on MLCP fittings.",
+    "safety": "Isolate and drain the line before cutting, wear eye protection and gloves against sharp pipe ends and burrs, and pressure check the finished joint before leaving site because an overtightened olive can leak.",
+    "ppe": [
+      "Safety Glasses",
+      "Work Gloves",
+      "Safety Shoes"
+    ],
+    "steps": [
+      "Isolate the water supply, drain the section and cut the pipe square.",
+      "Deburr the pipe end and clean it so the olive can seat on a smooth surface.",
+      "Slide on the nut and olive, then insert the pipe fully and squarely into the fitting body.",
+      "Tighten the nut by hand and then slightly past snug with spanners, without using PTFE tape on the thread and without overtightening and squashing the olive.",
+      "Restore the water, check the joint for weeps and nip up only slightly if needed."
+    ]
+  },
+  {
+    "id": "elec-129",
+    "title": "Tracing Nuisance RCD Tripping with Earth Leakage & Insulation Resistance Tests",
+    "category": "Electrical",
+    "subject": "Testing & Inspection",
+    "level": "Advanced",
+    "source": "YouTube / Field Guild",
+    "channel": "David Savery Electrical Services",
+    "publishDate": "2026-11-03",
+    "duration": "14:28",
+    "embedUrl": "https://www.youtube.com/embed/s8ALrG8TU5w",
+    "isNew": true,
+    "summary": "A UK electrician traces an intermittent RCD trip on a split-load board using earth leakage clamp readings, an RCD ramp test and circuit-by-circuit insulation resistance tests, finding a faulty dishwasher.",
+    "safety": "Safely isolate, lock off and prove dead before disconnecting neutrals or insulation testing at 500V, unplug appliances and surge-protected strips first, and treat earth leakage clamp readings as live work for competent persons only.",
+    "ppe": [
+      "Insulated Gloves",
+      "Safety Glasses",
+      "Voltage Indicator & Proving Unit",
+      "Lockout/Tagout Kit"
+    ],
+    "steps": [
+      "Clamp the tails to measure earth leakage on the non-RCD side, then the RCD side, to find the leakage on the RCD-protected circuits.",
+      "Ramp test the RCD to find its actual trip current and work out how much extra leakage will trip it.",
+      "Isolate the board, disconnect each circuit neutral and insulation test at 500V between line and neutral joined together and earth, investigating anything below 2 megohms.",
+      "Remove plug-in loads and open double-pole switches, retest, then reconnect appliances one at a time to find the one lowering the reading.",
+      "Calculate the combined parallel insulation resistance of the RCD circuits, take the faulty appliance out of service, and retest and record the results."
     ]
   }
 ];

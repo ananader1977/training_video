@@ -1756,7 +1756,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-27",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/oBUHhBzIe-E",
-    "isNew": true,
+    "isNew": false,
     "summary": "Explains the parts of an HVAC manifold gauge set (high, low and center ports, valves, hoses, core depressors and sight glass) and how technicians use the readings to find saturation pressures and temperatures when charging or recovering refrigerant.",
     "safety": "Wear gloves and eye protection when connecting hoses because liquid refrigerant causes frostbite, keep valve handles closed until hoses are secured, and hang the manifold clear of the condenser fan and coil.",
     "ppe": [
@@ -1783,7 +1783,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-27",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/FyG5_0ccx2Q",
-    "isNew": true,
+    "isNew": false,
     "summary": "Viega walks through the step-by-step ProPress installation procedure for making flameless press connections on copper water pipe.",
     "safety": "Isolate and drain the line before cutting, keep fingers clear of the press jaws during the press cycle, and use only the jaws and tool approved for the fitting size.",
     "ppe": [
@@ -1810,7 +1810,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-27",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/ZLpBbaU-V7g",
-    "isNew": true,
+    "isNew": false,
     "summary": "An instructor shows how to troubleshoot a three-phase motor system by checking each component in sequence: the motor, its isolator/disconnect, overload protection, contactor and fuses.",
     "safety": "Live diagnostic voltage checks on 400V three-phase must be done only by authorised electricians with CAT III/IV rated meters and GS38 leads; isolate, lock off and prove dead before any resistance or continuity test.",
     "ppe": [
@@ -2316,6 +2316,90 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Isolate the board, disconnect each circuit neutral and insulation test at 500V between line and neutral joined together and earth, investigating anything below 2 megohms.",
       "Remove plug-in loads and open double-pole switches, retest, then reconnect appliances one at a time to find the one lowering the reading.",
       "Calculate the combined parallel insulation resistance of the RCD circuits, take the faulty appliance out of service, and retest and record the results."
+    ]
+  },
+  {
+    "id": "hvac-128",
+    "title": "When to Replace a Filter Drier and How to Braze In a New One",
+    "category": "HVAC",
+    "subject": "Refrigerant Circuit Repair",
+    "level": "Intermediate",
+    "source": "YouTube / Field Guild",
+    "channel": "HVAC Technical Academy",
+    "publishDate": "2026-11-04",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/Pv6MXHsuZl4",
+    "isNew": true,
+    "summary": "An HVAC instructor shows how to confirm a failed filter drier from gauge readings and the temperature drop across it, then removes the old drier and brazes in a new one.",
+    "safety": "Isolate and lock off the unit, recover the refrigerant with certified equipment before opening the circuit, purge with dry nitrogen while brazing, and keep a fire extinguisher and heat shield at the brazing point.",
+    "ppe": [
+      "Safety Glasses",
+      "Refrigerant-Rated Gloves",
+      "Brazing Gloves & Shade Goggles",
+      "Fire Extinguisher"
+    ],
+    "steps": [
+      "Connect the manifold gauges and measure the temperature on both sides of the drier; a noticeable drop across it points to a restriction.",
+      "Confirm a replacement is needed: restriction, physical damage, or a compressor changeout.",
+      "Isolate the power, recover the refrigerant, and cut out the old drier.",
+      "Fit the new drier with its flow arrow in the refrigerant direction, shield it from heat, and braze the joints with a nitrogen purge.",
+      "Pressure test with nitrogen, evacuate, recharge to specification, and recheck the temperature across the drier."
+    ]
+  },
+  {
+    "id": "plumb-130",
+    "title": "Sewage Pump Troubleshooting in the Field: Pump or Float Switch Fault?",
+    "category": "Plumbing",
+    "subject": "Sewage Pumps & Controls",
+    "level": "Advanced",
+    "source": "YouTube / Field Guild",
+    "channel": "R.C. Worst & Co., Inc.",
+    "publishDate": "2026-11-04",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/ERSf9dOakok",
+    "isNew": true,
+    "summary": "A pump specialist responds to a failed sewage pump call and works through the field checks that show whether the pump or the float switch is at fault.",
+    "safety": "Lock off the pump supply before handling floats or wiring, treat the pit as a confined space with possible sewer gas, stay out of the pit unless gas tested and authorised, and wash thoroughly after any sewage contact.",
+    "ppe": [
+      "Waterproof Chemical-Resistant Gloves",
+      "Face Shield or Safety Goggles",
+      "Rubber Boots",
+      "Portable Gas Monitor"
+    ],
+    "steps": [
+      "Confirm the fault with the site team, including any alarm, and check the pit level from outside the pit.",
+      "Check the supply at the panel or pump connection with a multimeter, then isolate and lock off.",
+      "Inspect the float for snagging, debris, or cable damage and check that it moves freely.",
+      "Test the float switch for continuity through its raised and lowered positions, then test the pump separately to identify the faulty part.",
+      "Replace the faulty float or pump, reset the float levels, restore power, and run a full fill-and-pump-down cycle to confirm correct operation."
+    ]
+  },
+  {
+    "id": "elec-130",
+    "title": "UK Ring Circuits for Socket Outlets Explained",
+    "category": "Electrical",
+    "subject": "Final Circuits",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "John Ward (jwflame)",
+    "publishDate": "2026-11-04",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/hZN6hiGLtrE",
+    "isNew": true,
+    "summary": "An experienced UK electrical presenter explains how ring circuits, formerly called ring mains, supply BS 1363 socket outlets.",
+    "safety": "Treat every socket circuit as live until it is safely isolated, locked off and proved dead with an approved voltage indicator, and leave circuit changes to a competent electrician.",
+    "ppe": [
+      "Insulated Gloves",
+      "Safety Glasses",
+      "Voltage Indicator & Proving Unit",
+      "Lockout/Tagout Kit"
+    ],
+    "steps": [
+      "Identify the socket circuit at the distribution board and note its protective device and rating.",
+      "Safely isolate the circuit, lock it off and prove dead at the outlet before removing the faceplate.",
+      "Identify the two sets of line, neutral and earth conductors that indicate a ring connection at the socket.",
+      "Report any socket that does not match the expected layout, such as a broken ring or an unapproved spur, for testing by a competent electrician.",
+      "Refit the faceplate, remove the lock, re-energise the circuit and confirm correct operation with a socket tester."
     ]
   }
 ];

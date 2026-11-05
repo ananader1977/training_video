@@ -1838,7 +1838,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-28",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/xkQ6cxkaps4",
-    "isNew": true,
+    "isNew": false,
     "summary": "A technician performs a complete pump-down, moving the refrigerant charge into the outdoor unit so the line set or indoor section can be serviced, and explains when pump-down is and isn't appropriate.",
     "safety": "Never let suction pressure fall into a deep vacuum or run the compressor against a closed liquid valve for long, never bypass pressure switches unattended, and wear gloves and eye protection against refrigerant frostbite.",
     "ppe": [
@@ -1865,7 +1865,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-28",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/d9FXqYAuctg",
-    "isNew": true,
+    "isNew": false,
     "summary": "A Hathorn equipment trainer shows how push-rod sewer inspection cameras and 512 Hz sonde locators are used to view, record and pinpoint the location and condition of buried drain pipe.",
     "safety": "Use only properly vented access points, keep the reel on a GFCI-protected supply, never push the camera through blockages or live cutters, and disinfect the push cable after every job.",
     "ppe": [
@@ -1893,7 +1893,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-28",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/aozrvL0Jt9w",
-    "isNew": true,
+    "isNew": false,
     "summary": "A UK electrician demonstrates how to safely terminate a 13A BS 1363 fused connection unit, connecting the supply and load sides correctly and fitting the right fuse.",
     "safety": "Safely isolate, lock off and prove dead with an approved voltage indicator before removing the FCU, and fit a fuse rated for the connected appliance, never higher than 13A.",
     "ppe": [
@@ -2400,6 +2400,90 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Identify the two sets of line, neutral and earth conductors that indicate a ring connection at the socket.",
       "Report any socket that does not match the expected layout, such as a broken ring or an unapproved spur, for testing by a competent electrician.",
       "Refit the faceplate, remove the lock, re-energise the circuit and confirm correct operation with a socket tester."
+    ]
+  },
+  {
+    "id": "hvac-129",
+    "title": "LEV/EEV Electric Expansion Valve Operation and Troubleshooting for VRF Units",
+    "category": "HVAC",
+    "subject": "VRF Systems",
+    "level": "Advanced",
+    "source": "YouTube / Field Guild",
+    "channel": "AC Service Tech LLC",
+    "publishDate": "2026-11-05",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/B_j73X0gxC0",
+    "isNew": true,
+    "summary": "A cut-open linear expansion valve shows the pin, gearing and wiring of the electric metering device used in VRF and mini-VRF indoor units, and how electrical pulses move the pin to control refrigerant flow.",
+    "safety": "Isolate, lock off and prove dead before disconnecting the valve coil, and recover the refrigerant before removing a valve head because the head is part of the sealed system; only competent, refrigerant-qualified technicians should do this work.",
+    "ppe": [
+      "Safety Glasses",
+      "Refrigerant-Resistant Gloves",
+      "Insulated Gloves",
+      "Lockout/Tagout Kit"
+    ],
+    "steps": [
+      "Identify the valve type and location, noting that VRF indoor units have an EEV or LEV at the indoor unit while most mini-splits meter at the outdoor unit.",
+      "Isolate the unit, lock it off and prove dead before unplugging the valve coil connector.",
+      "Identify the coil wiring and check the windings with a multimeter against the manufacturer data.",
+      "With the board or test method the manufacturer allows, drive the valve and confirm the pin moves through its pulses.",
+      "If the head must be replaced, recover the refrigerant first, then refit it and confirm correct superheat and valve control on restart."
+    ]
+  },
+  {
+    "id": "plumb-131",
+    "title": "How to Remove and Install a Shut-Off Valve: Compression, Soldered and Push-Fit",
+    "category": "Plumbing",
+    "subject": "Valves & Fittings",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "Got2Learn",
+    "publishDate": "2026-11-05",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/OjD2UtzlX8w",
+    "isNew": true,
+    "summary": "Shows why a leaking shut-off valve is replaced and how to remove and fit compression, soldered and push-fit types on copper pipe.",
+    "safety": "Isolate and drain the line before cutting or undoing any joint, and for soldered valves use a heat shield, keep a fire extinguisher close and obtain a hot work permit where the site requires one.",
+    "ppe": [
+      "Safety Glasses",
+      "Work Gloves",
+      "Heat-Resistant Gloves (Soldering)",
+      "Closed-Toe Safety Shoes"
+    ],
+    "steps": [
+      "Identify the valve type and connection, then isolate the supply and drain the line through the lowest open outlet.",
+      "Remove the old valve by undoing the compression nut and pulling the sleeve, unsweating the solder joint, or releasing the push-fit collar.",
+      "Clean the pipe end with a brush or abrasive, then ream and deburr it so the new joint seats squarely.",
+      "Fit the new valve using the method for its type, marking the insertion depth with a gauge on push-fit and fitting a heat shield before soldering.",
+      "Close the valve, restore the supply slowly, and check the joint for leaks with the valve both open and closed."
+    ]
+  },
+  {
+    "id": "elec-131",
+    "title": "CPC Continuity and Polarity Test on a Lighting Circuit Using an R1+R2 Link",
+    "category": "Electrical",
+    "subject": "Testing & Inspection",
+    "level": "Intermediate",
+    "source": "YouTube / Field Guild",
+    "channel": "GSH Electrical",
+    "publishDate": "2026-11-05",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/5bm0-u_F8W4",
+    "isNew": true,
+    "summary": "Demonstrates a BS 7671 dead test on a lighting circuit, using a temporary link between line and CPC at the board and a Megger MFT to measure R1+R2 and prove polarity at each point.",
+    "safety": "This is a dead test, so complete safe isolation, lock off and prove dead with an approved voltage indicator before linking conductors, and remove the temporary link before re-energising the circuit.",
+    "ppe": [
+      "Insulated Gloves",
+      "Safety Glasses",
+      "Voltage Indicator & Proving Unit",
+      "Lockout/Tagout Kit"
+    ],
+    "steps": [
+      "Safely isolate the lighting circuit, lock it off and prove dead at the board.",
+      "Set the multifunction tester to low-resistance continuity and null out the lead and link resistance.",
+      "Fit a temporary link between line and CPC of the circuit at the consumer unit.",
+      "At each lighting point and switch, test between line and CPC, operating the switch to prove polarity and noting the readings.",
+      "Remove the link, reconnect the conductors, and record the highest R1+R2 reading and the polarity tick on the test schedule."
     ]
   }
 ];

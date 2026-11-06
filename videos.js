@@ -2485,5 +2485,33 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "At each lighting point and switch, test between line and CPC, operating the switch to prove polarity and noting the readings.",
       "Remove the link, reconnect the conductors, and record the highest R1+R2 reading and the polarity tick on the test schedule."
     ]
+  },
+  {
+    "id": "elec-132",
+    "title": "Fluke Thermal Imaging for Electrical Applications",
+    "category": "Electrical",
+    "subject": "Thermography",
+    "level": "Advanced",
+    "source": "Manufacturer Tech Academy",
+    "channel": "TestersAndTools",
+    "publishDate": "2026-11-06",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/HDppR406W-g",
+    "isNew": true,
+    "summary": "A Fluke web seminar covering the basics of thermography, then the process of thermal imaging and how to interpret the results on electrical equipment.",
+    "safety": "Thermal scans are done on energised equipment, so only authorised staff should open panels, keep safe approach distances and wear arc-rated PPE, and any fault found must be repaired under safe isolation and proved dead first.",
+    "ppe": [
+      "Arc-Rated Face Shield & Clothing",
+      "Insulated Gloves",
+      "Safety Glasses",
+      "Safety Shoes"
+    ],
+    "steps": [
+      "Get a permit, confirm the board is carrying normal load, and list the panels to be scanned.",
+      "Open covers only if authorised, keeping safe approach distances and wearing arc-rated PPE.",
+      "Set emissivity and reflected temperature on the camera, then focus on each connection, breaker and busbar.",
+      "Compare similar components across phases under equal load and note any hot spots with their temperature rise.",
+      "Save the images, rank the faults by severity, and schedule repairs under safe isolation, then rescan to confirm."
+    ]
   }
 ];

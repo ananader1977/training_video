@@ -1920,7 +1920,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-30",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/_pD-rRCNv8k",
-    "isNew": true,
+    "isNew": false,
     "summary": "Bryan Orr shows how to measure return and supply air temperatures across the evaporator coil and explains why the correct delta T depends on humidity, airflow and equipment rather than a fixed 20-degree rule.",
     "safety": "Keep hands and probes clear of the blower and moving parts, isolate power before opening any panel beyond the access port, and work from a stable ladder at high-wall or ceiling units.",
     "ppe": [
@@ -1947,7 +1947,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-30",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/Zirp8vqApQc",
-    "isNew": true,
+    "isNew": false,
     "summary": "A solvent cement manufacturer demonstrates the professional procedure for cutting, deburring, priming and solvent-welding PVC pipe and fittings for plumbing and drainage lines.",
     "safety": "Primers and solvent cements are flammable and give off strong vapours, so work in a well-ventilated area away from ignition sources, avoid skin and eye contact, and close containers when not in use.",
     "ppe": [
@@ -1974,7 +1974,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-30",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/g4oOp2KFXqo",
-    "isNew": true,
+    "isNew": false,
     "summary": "Trainer Sam Craig demonstrates live measurement of external earth fault loop impedance (Ze) and prospective fault current (PSCC/PEFC) at the origin of a three-phase 400V distribution board.",
     "safety": "These are live tests at the supply origin, so only competent, authorised electricians should carry them out using GS38-compliant leads, with the main switch isolated and the earthing conductor disconnected only while the installation is safely isolated and reconnected immediately after.",
     "ppe": [
@@ -2512,6 +2512,86 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Set emissivity and reflected temperature on the camera, then focus on each connection, breaker and busbar.",
       "Compare similar components across phases under equal load and note any hot spots with their temperature rise.",
       "Save the images, rank the faults by severity, and schedule repairs under safe isolation, then rescan to confirm."
+    ]
+  },
+  {
+    "id": "hvac-130",
+    "title": "Checking Refrigerant Charge by Superheat on a Piston (Orifice) System",
+    "category": "HVAC",
+    "subject": "Charging & Testing",
+    "level": "Intermediate",
+    "source": "YouTube / Field Guild",
+    "channel": "AC Service Tech LLC",
+    "publishDate": "2026-11-07",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/q-G7FLlzhAg",
+    "isNew": true,
+    "summary": "Shows how to tell a piston/orifice metering system from a TXV system and how to check the charge by superheat using a gauge set, temperature probe and charging chart.",
+    "safety": "Isolate power before opening any cover and handle refrigerant only with proper recovery equipment; never vent refrigerant to atmosphere.",
+    "ppe": [
+      "Safety Glasses",
+      "Work Gloves",
+      "Long Sleeves"
+    ],
+    "steps": [
+      "Confirm the metering device by removing the evaporator cover if needed and identifying a piston/orifice or TXV.",
+      "For a piston/orifice system, connect the blue low-side gauge and clamp the temperature probe to the suction line.",
+      "Record outdoor and indoor conditions and find the target superheat on the superheat charging chart.",
+      "Compare measured superheat with the target and adjust the charge slowly, allowing the system to stabilise.",
+      "Record final readings on the job sheet and confirm superheat falls within the rated band."
+    ]
+  },
+  {
+    "id": "plumb-132",
+    "title": "Troubleshooting a Zurn Wilkins 975XL2 Reduced Pressure Backflow Preventer",
+    "category": "Plumbing",
+    "subject": "Backflow Prevention",
+    "level": "Advanced",
+    "source": "Manufacturer Tech Academy",
+    "channel": "Zurn Water, LLC",
+    "publishDate": "2026-11-07",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/vMUEJWukMeY",
+    "isNew": true,
+    "summary": "Shows how to diagnose a leaking Zurn Wilkins 975XL2 reduced-pressure assembly by closing shut-off valves and using test cock #4 to isolate check valve #1 or #2.",
+    "safety": "Only certified backflow testers should work on the assembly; close shut-off valves and relieve pressure before opening any part, and follow local water-authority rules.",
+    "ppe": [
+      "Safety Glasses",
+      "Work Gloves",
+      "Waterproof Clothing"
+    ],
+    "steps": [
+      "Note where water discharges from the relief valve vent and whether it is spitting, dripping or continuous.",
+      "Close shut-off valve #2 and check whether the vent discharge stops or reduces, which points to check valve #2.",
+      "If discharge continues, slowly open test cock #4 to match the flow and watch whether the vent stops, which points to check valve #1.",
+      "Isolate the faulty check valve, relieve pressure and open the cover following the manufacturer procedure.",
+      "Replace worn check valve parts, reassemble and retest the assembly under the local certified test procedure."
+    ]
+  },
+  {
+    "id": "elec-133",
+    "title": "How to Use Non-Contact Voltage Detectors",
+    "category": "Electrical",
+    "subject": "Test Instruments & Safe Isolation",
+    "level": "Beginner",
+    "source": "ToolTech & Equipment Pro",
+    "channel": "Fluke Corporation",
+    "publishDate": "2026-11-07",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/c-KiGsVvt2E",
+    "isNew": true,
+    "summary": "Introduces Fluke non-contact voltage detectors (VoltAlert range) and shows how to use the tip to detect live voltage at outlets, terminal strips and supply cords.",
+    "safety": "Prove the detector on a known live source before and after use, and never rely on a non-contact tester alone to confirm a circuit is dead.",
+    "ppe": [
+      "Safety Glasses",
+      "Insulated Gloves"
+    ],
+    "steps": [
+      "Check the detector rating and battery, then select the model suited to the supply (AC 90–1000 V or 20–90 V).",
+      "Prove the detector on a known live outlet to confirm it glows and beeps before testing.",
+      "Touch the tip to the terminal strip, outlet or supply cord, acting as the ground reference through capacitive coupling.",
+      "Confirm the tip glows red and the unit beeps to show voltage is present, then isolate the supply.",
+      "Re-prove the detector on the known live source after testing to confirm it still works."
     ]
   }
 ];

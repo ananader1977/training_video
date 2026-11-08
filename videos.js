@@ -2002,7 +2002,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-31",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/RdnevfMde6g",
-    "isNew": true,
+    "isNew": false,
     "summary": "Shows where to drill static pressure test ports, how to connect a manometer and read total external static pressure, and what high or low readings reveal about filters, ductwork and the blower.",
     "safety": "Isolate power to the air handler before drilling test ports, keep hands and probes clear of the blower and moving parts when the unit runs, and seal every test hole with a proper plug after the test.",
     "ppe": [
@@ -2029,7 +2029,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-31",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/E97KrjY9Q4A",
-    "isNew": true,
+    "isNew": false,
     "summary": "A plumber strips down a thermostatic mixing (blending) valve, cleans and services the internal parts and reassembles it to restore safe, stable mixed-water temperature.",
     "safety": "Isolate and drain both hot and cold supplies before opening the valve, beware of scalding stored hot water, and always re-test the mixed outlet temperature and cold-supply fail-safe before handing back to users.",
     "ppe": [
@@ -2056,7 +2056,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-10-31",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/maFAKU1r_Jw",
-    "isNew": true,
+    "isNew": false,
     "summary": "An apprentice-training demonstration of stripping a 3-core flexible cord and wiring it correctly into a BS 1363 13A plug top with the right BS 1362 fuse fitted.",
     "safety": "Unplug and inspect the appliance before work, never work on a live flex, select the correct BS 1362 fuse (3A, 5A or 13A) for the appliance rating, and make sure the cord grip clamps the outer sheath, not the cores.",
     "ppe": [
@@ -2592,6 +2592,33 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Touch the tip to the terminal strip, outlet or supply cord, acting as the ground reference through capacitive coupling.",
       "Confirm the tip glows red and the unit beeps to show voltage is present, then isolate the supply.",
       "Re-prove the detector on the known live source after testing to confirm it still works."
+    ]
+  },
+  {
+    "id": "hvac-131",
+    "title": "Heat Pump Troubleshooting: Testing a Defrost Board to Force Defrost",
+    "category": "HVAC",
+    "subject": "Controls & Diagnostics",
+    "level": "Advanced",
+    "source": "YouTube / Field Guild",
+    "channel": "AC Service Tech LLC",
+    "publishDate": "2026-11-08",
+    "duration": "4:28",
+    "embedUrl": "https://www.youtube.com/embed/5c5R3uYSy5U",
+    "isNew": true,
+    "summary": "Shows how a heat pump defrost board reads its coil (DFT) sensor and timer, how to jumper the sensor and use the speed-up terminals to force a defrost cycle, and how to return the unit to heat mode afterwards.",
+    "safety": "Work on the defrost board and sensor only with power isolated; re-energise only when the sensor and speed-up jumpers are removed and the board is back in its normal wiring.",
+    "ppe": [
+      "Safety Glasses",
+      "Insulated Gloves",
+      "Work Boots"
+    ],
+    "steps": [
+      "Confirm the unit is in heat mode and note the defrost timer setting (30, 60, 90 or 120 minutes).",
+      "Isolate power, then disconnect the defrost temperature sensor and jumper it closed with alligator clips.",
+      "Briefly bridge the speed-up terminals on the board to shorten the timer and force a defrost cycle.",
+      "Check the reversing valve has switched, the outdoor fan has stopped and the coil is melting ice, then remove the jumper to end defrost.",
+      "Remove all test jumpers, reconnect the sensor and confirm the unit returns to heat mode with the fan running."
     ]
   }
 ];

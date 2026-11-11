@@ -2083,7 +2083,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-01",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/I53nbpTHmVk",
-    "isNew": true,
+    "isNew": false,
     "summary": "An HVAC instructor coaches an apprentice through spotting a pitted contactor during maintenance, isolating power, replacing the contactor, checking the wiring against the schematic and monitoring compressor amps on start-up.",
     "safety": "Isolate both the outdoor disconnect and the indoor unit breaker because the contactor coil is fed by control voltage from indoors, then prove dead with a tested meter before touching any terminals.",
     "ppe": [
@@ -2110,7 +2110,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-01",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/FbXT3xyDXFk",
-    "isNew": true,
+    "isNew": false,
     "summary": "RIDGID's official guide to setting up the K-400 drum drain-cleaning machine: assessing the drain, preparing the work area, positioning the machine, selecting and fitting the cutting tool and connecting the foot switch and power safely.",
     "safety": "Wear safety glasses and RIDGID drain-cleaning gloves over liquid-barrier gloves, check the drain for chemicals first, keep the drum within 2 ft of the access point to prevent cable kinking, and plug into a grounded outlet with dry hands.",
     "ppe": [
@@ -2138,7 +2138,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-01",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/dnpV781c6Sw",
-    "isNew": true,
+    "isNew": false,
     "summary": "Explains the basics of UK (BS 7671, 230V) lighting circuits, including the permanent line, neutral, switch line and CPC, and how they connect at a loop-in ceiling rose and a one-way light switch.",
     "safety": "Isolate and lock off the lighting MCB, prove dead with an approved voltage indicator and proving unit, and sleeve the blue switch-line conductor brown because it is a line conductor, not a neutral.",
     "ppe": [
@@ -2165,7 +2165,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-02",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/EvzwyDl4Fgg",
-    "isNew": true,
+    "isNew": false,
     "summary": "Shows how to measure resistance across single-phase and 3-phase compressor terminals to find windings shorted to ground, open windings, a tripped internal overload or a bad connection, and shows the inside of a burned-out compressor.",
     "safety": "Lock off the disconnect, prove no voltage at the contactor and discharge the capacitor before touching the terminals, wait for inverter DC capacitors to discharge, and treat a burned-out compressor as acid-contaminated.",
     "ppe": [
@@ -2193,7 +2193,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-02",
     "duration": "2:22",
     "embedUrl": "https://www.youtube.com/embed/AabLItDN-qk",
-    "isNew": true,
+    "isNew": false,
     "summary": "Fluidmaster shows how to inspect a toilet fill valve for wear, clean off mineral build-up, flush debris from the valve seat and replace worn parts on schedule.",
     "safety": "Shut off the toilet supply valve before opening the fill valve, check the connector for leaks afterwards, and do not use bleach or chlorine in-tank tablets, which damage tank parts and can cause flooding.",
     "ppe": [
@@ -2220,7 +2220,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-02",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/Qep-3PY_pQM",
-    "isNew": true,
+    "isNew": false,
     "summary": "A Trade Skills 4U tutor demonstrates how to size up, strip and fit a gland to a steel wire armoured (SWA) cable.",
     "safety": "Work only on a cable that is isolated, locked off and proved dead, wear gloves against sharp cut armour wires, and make sure the gland earths the armour to the 230/400V installation's earthing system.",
     "ppe": [
@@ -2247,7 +2247,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-03",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/4dkY0zs7sBQ",
-    "isNew": true,
+    "isNew": false,
     "summary": "Craig Migliaccio walks through the outdoor unit and indoor coil rating plates, covering capacity, refrigerant charge, target subcooling, RLA, LRA, FLA, design pressures and maximum fuse and breaker size.",
     "safety": "Read plates with the unit isolated if panels must be removed, confirm the plate voltage and frequency match the local 230/400V 50Hz supply as the video shows a US 60Hz unit, and never pressure test above the lowest maximum design pressure of the indoor coil.",
     "ppe": [
@@ -2274,7 +2274,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-03",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/yvTEb2-Iivo",
-    "isNew": true,
+    "isNew": false,
     "summary": "A trainee-level tutorial showing how the tapered seat, olive and nut seal a compression joint on copper pipe, with a short section on MLCP fittings.",
     "safety": "Isolate and drain the line before cutting, wear eye protection and gloves against sharp pipe ends and burrs, and pressure check the finished joint before leaving site because an overtightened olive can leak.",
     "ppe": [
@@ -2301,7 +2301,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-03",
     "duration": "14:28",
     "embedUrl": "https://www.youtube.com/embed/s8ALrG8TU5w",
-    "isNew": true,
+    "isNew": false,
     "summary": "A UK electrician traces an intermittent RCD trip on a split-load board using earth leakage clamp readings, an RCD ramp test and circuit-by-circuit insulation resistance tests, finding a faulty dishwasher.",
     "safety": "Safely isolate, lock off and prove dead before disconnecting neutrals or insulation testing at 500V, unplug appliances and surge-protected strips first, and treat earth leakage clamp readings as live work for competent persons only.",
     "ppe": [
@@ -2619,6 +2619,86 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Briefly bridge the speed-up terminals on the board to shorten the timer and force a defrost cycle.",
       "Check the reversing valve has switched, the outdoor fan has stopped and the coil is melting ice, then remove the jumper to end defrost.",
       "Remove all test jumpers, reconnect the sensor and confirm the unit returns to heat mode with the fan running."
+    ]
+  },
+  {
+    "id": "hvac-132",
+    "title": "Liquid Line Restriction on AC Unit Explained: Found a Bad TXV",
+    "category": "HVAC",
+    "subject": "Controls & Diagnostics",
+    "level": "Advanced",
+    "source": "YouTube / Field Guild",
+    "channel": "AC Service Tech LLC",
+    "publishDate": "2026-11-11",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/_yLMv7T2hhM",
+    "isNew": true,
+    "summary": "Shows how a liquid line restriction appears on the gauges and subcooling readings, and how a faulty TXV can cause it.",
+    "safety": "Gauge work is on pressurised refrigerant; wear eye protection and gloves, and never open a line or vent refrigerant to the air.",
+    "ppe": [
+      "Safety Glasses",
+      "Work Gloves"
+    ],
+    "steps": [
+      "Confirm the system is running and stable before taking any readings.",
+      "Connect the gauge set and record high-side and low-side pressures.",
+      "Measure liquid line temperature and calculate subcooling.",
+      "Compare the readings with a liquid line restriction against low airflow or low charge.",
+      "Report the findings and recommend the TXV or restriction repair to your supervisor."
+    ]
+  },
+  {
+    "id": "plumb-133",
+    "title": "How to Solder Copper Pipe The Correct Way",
+    "category": "Plumbing",
+    "subject": "Soldering & Joining",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "Got2Learn",
+    "publishDate": "2026-11-11",
+    "duration": "5:04",
+    "embedUrl": "https://www.youtube.com/embed/JyVbjDsric4",
+    "isNew": true,
+    "summary": "Covers the three stages of a copper soldered joint: cleaning and preparation, flux and heating from the bottom, and finishing with wiping excess flux.",
+    "safety": "Torch flame and hot copper cause burns and fire; keep the torch away from combustibles, never heat a joint that is closed to a pressurised line, and let joints cool before touching.",
+    "ppe": [
+      "Safety Glasses",
+      "Heat-Resistant Gloves",
+      "Fire Extinguisher Nearby"
+    ],
+    "steps": [
+      "Clean the pipe end with emery cloth and the fitting with a wire brush until bright.",
+      "Apply an even coat of flux to both the pipe and the inside of the fitting.",
+      "Heat the joint from the bottom and work upward, testing with solder until it wicks in.",
+      "Run a full bead of solder around the joint and check for complete coverage.",
+      "Let the joint cool naturally, then wipe off excess flux with a rag."
+    ]
+  },
+  {
+    "id": "elec-134",
+    "title": "Ring Final Circuit Test Sequence for Electrical Apprentices",
+    "category": "Electrical",
+    "subject": "Inspection & Testing",
+    "level": "Intermediate",
+    "source": "YouTube / Field Guild",
+    "channel": "Electricians Life UK",
+    "publishDate": "2026-11-11",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/IH8DBJTN9yY",
+    "isNew": true,
+    "summary": "Walks apprentices through the ring final circuit test sequence, showing the continuity and resistance checks in the order they are performed.",
+    "safety": "Isolate and prove the circuit dead before testing and only use a calibrated instrument; test leads must be in good condition.",
+    "ppe": [
+      "Safety Glasses",
+      "Insulated Gloves",
+      "Insulated Tools"
+    ],
+    "steps": [
+      "Isolate the circuit and prove it dead with a tested voltage indicator.",
+      "Identify the ring conductors and disconnect them at the consumer unit for the continuity test.",
+      "Cross-connect the line and circuit protective conductor ends and measure r1, rn and r2 at each socket.",
+      "Record each reading against the expected values and compare the phase and neutral readings for equality.",
+      "Reconnect the circuit, complete the test certificate and confirm with your supervisor before energising."
     ]
   }
 ];

@@ -2329,7 +2329,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-04",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/Pv6MXHsuZl4",
-    "isNew": true,
+    "isNew": false,
     "summary": "An HVAC instructor shows how to confirm a failed filter drier from gauge readings and the temperature drop across it, then removes the old drier and brazes in a new one.",
     "safety": "Isolate and lock off the unit, recover the refrigerant with certified equipment before opening the circuit, purge with dry nitrogen while brazing, and keep a fire extinguisher and heat shield at the brazing point.",
     "ppe": [
@@ -2357,7 +2357,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-04",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/ERSf9dOakok",
-    "isNew": true,
+    "isNew": false,
     "summary": "A pump specialist responds to a failed sewage pump call and works through the field checks that show whether the pump or the float switch is at fault.",
     "safety": "Lock off the pump supply before handling floats or wiring, treat the pit as a confined space with possible sewer gas, stay out of the pit unless gas tested and authorised, and wash thoroughly after any sewage contact.",
     "ppe": [
@@ -2385,7 +2385,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-04",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/hZN6hiGLtrE",
-    "isNew": true,
+    "isNew": false,
     "summary": "An experienced UK electrical presenter explains how ring circuits, formerly called ring mains, supply BS 1363 socket outlets.",
     "safety": "Treat every socket circuit as live until it is safely isolated, locked off and proved dead with an approved voltage indicator, and leave circuit changes to a competent electrician.",
     "ppe": [
@@ -2413,7 +2413,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-05",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/B_j73X0gxC0",
-    "isNew": true,
+    "isNew": false,
     "summary": "A cut-open linear expansion valve shows the pin, gearing and wiring of the electric metering device used in VRF and mini-VRF indoor units, and how electrical pulses move the pin to control refrigerant flow.",
     "safety": "Isolate, lock off and prove dead before disconnecting the valve coil, and recover the refrigerant before removing a valve head because the head is part of the sealed system; only competent, refrigerant-qualified technicians should do this work.",
     "ppe": [
@@ -2441,7 +2441,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-05",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/OjD2UtzlX8w",
-    "isNew": true,
+    "isNew": false,
     "summary": "Shows why a leaking shut-off valve is replaced and how to remove and fit compression, soldered and push-fit types on copper pipe.",
     "safety": "Isolate and drain the line before cutting or undoing any joint, and for soldered valves use a heat shield, keep a fire extinguisher close and obtain a hot work permit where the site requires one.",
     "ppe": [
@@ -2469,7 +2469,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-05",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/5bm0-u_F8W4",
-    "isNew": true,
+    "isNew": false,
     "summary": "Demonstrates a BS 7671 dead test on a lighting circuit, using a temporary link between line and CPC at the board and a Megger MFT to measure R1+R2 and prove polarity at each point.",
     "safety": "This is a dead test, so complete safe isolation, lock off and prove dead with an approved voltage indicator before linking conductors, and remove the temporary link before re-energising the circuit.",
     "ppe": [
@@ -2699,6 +2699,87 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Cross-connect the line and circuit protective conductor ends and measure r1, rn and r2 at each socket.",
       "Record each reading against the expected values and compare the phase and neutral readings for equality.",
       "Reconnect the circuit, complete the test certificate and confirm with your supervisor before energising."
+    ]
+  },
+  {
+    "id": "hvac-133",
+    "title": "Top 5 HVAC Contactor Problems and How to Test Them",
+    "category": "HVAC",
+    "subject": "Electrical Components",
+    "level": "Intermediate",
+    "source": "YouTube / Field Guild",
+    "channel": "AC Service Tech LLC",
+    "publishDate": "2026-11-13",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/IdWBqHEaSPM",
+    "isNew": true,
+    "summary": "Explains the five most common HVAC contactor failures, such as contacts welded closed or pitted with high resistance, and how to check each with a multimeter in resistance mode.",
+    "safety": "Isolate line voltage and prove dead before handling the contactor, take resistance readings only on de-energised contacts, and keep hands clear of the contacts when the 24 V coil is energised.",
+    "ppe": [
+      "Safety Glasses",
+      "Insulated Gloves",
+      "Insulated Safety Shoes"
+    ],
+    "steps": [
+      "Isolate the unit at the disconnect, prove there is no voltage, and identify whether the contactor is single, two or three pole with its coil voltage and FLA rating.",
+      "Set the multimeter to resistance and check the contacts with the coil unpowered; a reading near 0 ohms means the contacts are stuck closed and welded.",
+      "Energise the 24 V coil from the transformer and check the contacts again; a high reading in megaohms means pitted or non-making contacts.",
+      "Inspect the coil and contacts for burn marks or discolouration, and check that the coil is not shorted or open.",
+      "Replace the contactor with a matching coil voltage and FLA rating if the contacts are welded, pitted or the coil is burnt, then recheck operation."
+    ]
+  },
+  {
+    "id": "plumb-134",
+    "title": "Testing the RP / RPZ Backflow Preventer with a Two-Valve Test Kit (USC 10th Edition)",
+    "category": "Plumbing",
+    "subject": "Backflow Testing",
+    "level": "Advanced",
+    "source": "YouTube / Field Guild",
+    "channel": "What is Backflow",
+    "publishDate": "2026-11-13",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/6XZEF2ALkmo",
+    "isNew": true,
+    "summary": "Walks through the USC 10th Edition field test of an RP assembly with a two-valve kit, covering static line pressure, relief valve opening point and check valve tightness.",
+    "safety": "Discharge from the relief port can be under pressure and the assembly must be isolated before testing; open test cocks slowly so the relief valve is not jumped, and only a certified backflow tester should perform the test.",
+    "ppe": [
+      "Safety Glasses",
+      "Waterproof Gloves",
+      "Splash-Resistant Clothing"
+    ],
+    "steps": [
+      "Notify and identify the assembly, inspect it, then flush the test cocks with all four open and then closed in sequence.",
+      "Connect the high hose to test cock 2 and the low hose to test cock 3, opening test cocks slowly so the relief valve is not jumped.",
+      "Record the static line pressure, then loop the bypass and open the low bleed to find the relief valve opening point at a fine drip.",
+      "Reset the gauge by bleeding up to the apparent point, then test check valve 2 for tightness against back pressure.",
+      "Test check valve 1 last, confirm the shut-off valves are not leaking, record results against the USC 10th Edition criteria and restore the assembly to service."
+    ]
+  },
+  {
+    "id": "elec-135",
+    "title": "Safe Isolation of a UK Consumer Unit with Lock-Off and GS38 Proving",
+    "category": "Electrical",
+    "subject": "Safe Isolation",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "GSH Electrical",
+    "publishDate": "2026-11-13",
+    "duration": "N/A",
+    "embedUrl": "https://www.youtube.com/embed/aMWNgwQeQ8g",
+    "isNew": true,
+    "summary": "Demonstrates safe isolation of a UK consumer unit: switching off and locking off the supply, then proving dead with a GS38 voltage indicator proved before and after the test.",
+    "safety": "Never rely on a non-contact tester or multimeter to prove dead; prove the voltage indicator on a known source before and after, and lock off the supply so it cannot be re-energised.",
+    "ppe": [
+      "Safety Glasses",
+      "Insulated Gloves",
+      "Insulated Footwear"
+    ],
+    "steps": [
+      "Obtain permission to isolate, then switch off the circuit and the main switch before removing the consumer unit cover.",
+      "Fit a lock-off device and padlock to the supply, keep the key on you, and attach a warning sign.",
+      "Prove the GS38 voltage indicator on a known source, then test line to neutral, line to earth and neutral to earth at the unit.",
+      "Re-prove the indicator on the known source to confirm it still works and the dead reading is valid.",
+      "Begin work only once the circuit is proven dead, and leave the lock-off in place until the job is finished."
     ]
   }
 ];

@@ -2497,7 +2497,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-06",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/HDppR406W-g",
-    "isNew": true,
+    "isNew": false,
     "summary": "A Fluke web seminar covering the basics of thermography, then the process of thermal imaging and how to interpret the results on electrical equipment.",
     "safety": "Thermal scans are done on energised equipment, so only authorised staff should open panels, keep safe approach distances and wear arc-rated PPE, and any fault found must be repaired under safe isolation and proved dead first.",
     "ppe": [
@@ -2780,6 +2780,59 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Prove the GS38 voltage indicator on a known source, then test line to neutral, line to earth and neutral to earth at the unit.",
       "Re-prove the indicator on the known source to confirm it still works and the dead reading is valid.",
       "Begin work only once the circuit is proven dead, and leave the lock-off in place until the job is finished."
+    ]
+  },
+  {
+    "id": "hvac-134",
+    "title": "ECM Multi-Speed Blower Motor Troubleshooting",
+    "category": "HVAC",
+    "subject": "Controls & Diagnostics",
+    "level": "Advanced",
+    "source": "YouTube / Field Guild",
+    "channel": "AC Service Tech LLC",
+    "publishDate": "2026-11-14",
+    "duration": "16:40",
+    "embedUrl": "https://www.youtube.com/embed/24InQXQHEBw",
+    "isNew": true,
+    "summary": "Diagnosing a multi-speed ECM blower motor fault step by step, including checking the control signals and testing the motor before condemning it.",
+    "safety": "Isolate the air handler at the disconnect and confirm zero voltage with a meter before touching the motor, wiring or control board.",
+    "ppe": [
+      "Safety Glasses",
+      "Insulated Gloves",
+      "Multimeter (CAT III rated)"
+    ],
+    "steps": [
+      "Isolate power to the air handler and verify zero volts at the motor plug before handling any connectors.",
+      "Check the thermostat and control board call inputs to confirm the fan is being commanded.",
+      "Test the ECM motor plug for line voltage and control signal on the correct pins.",
+      "Measure the motor windings and check for a shorted or open winding or a failed module.",
+      "Replace only the confirmed faulty part, restore power and verify fan speeds across all taps."
+    ]
+  },
+  {
+    "id": "plumb-135",
+    "title": "How to Replace a Kitchen Faucet in 30 Minutes",
+    "category": "Plumbing",
+    "subject": "Fixtures & Simple Repairs",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "LRN2DIY",
+    "publishDate": "2026-11-14",
+    "duration": "9:31",
+    "embedUrl": "https://www.youtube.com/embed/unFBrfqYWOM",
+    "isNew": true,
+    "summary": "Replacing a sink-mounted kitchen faucet, from shutting off the supply and loosening the mounting nut to fitting the new gasket, hoses and supply lines and checking for leaks.",
+    "safety": "Shut off both hot and cold isolation valves and confirm no water flows at the faucet before disconnecting any supply line, and keep a towel under the connections for residual water.",
+    "ppe": [
+      "Safety Glasses",
+      "Work Gloves"
+    ],
+    "steps": [
+      "Shut off both hot and cold isolation valves under the sink and run the faucet to confirm no flow.",
+      "Disconnect the supply lines and loosen the fastening nut that holds the faucet to the countertop.",
+      "Remove the old faucet and fit the new faucet with its gasket or plate sitting flat on the sink.",
+      "Feed the new hoses through the sink and secure the assembly from below, then reconnect the supply lines hand-tight plus a small nudge.",
+      "Open the valves slowly and check every joint above and below the sink for leaks before finishing."
     ]
   }
 ];

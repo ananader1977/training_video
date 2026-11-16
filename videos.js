@@ -2525,7 +2525,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-07",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/q-G7FLlzhAg",
-    "isNew": true,
+    "isNew": false,
     "summary": "Shows how to tell a piston/orifice metering system from a TXV system and how to check the charge by superheat using a gauge set, temperature probe and charging chart.",
     "safety": "Isolate power before opening any cover and handle refrigerant only with proper recovery equipment; never vent refrigerant to atmosphere.",
     "ppe": [
@@ -2552,7 +2552,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-07",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/vMUEJWukMeY",
-    "isNew": true,
+    "isNew": false,
     "summary": "Shows how to diagnose a leaking Zurn Wilkins 975XL2 reduced-pressure assembly by closing shut-off valves and using test cock #4 to isolate check valve #1 or #2.",
     "safety": "Only certified backflow testers should work on the assembly; close shut-off valves and relieve pressure before opening any part, and follow local water-authority rules.",
     "ppe": [
@@ -2579,7 +2579,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-07",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/c-KiGsVvt2E",
-    "isNew": true,
+    "isNew": false,
     "summary": "Introduces Fluke non-contact voltage detectors (VoltAlert range) and shows how to use the tip to detect live voltage at outlets, terminal strips and supply cords.",
     "safety": "Prove the detector on a known live source before and after use, and never rely on a non-contact tester alone to confirm a circuit is dead.",
     "ppe": [
@@ -2605,7 +2605,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-08",
     "duration": "4:28",
     "embedUrl": "https://www.youtube.com/embed/5c5R3uYSy5U",
-    "isNew": true,
+    "isNew": false,
     "summary": "Shows how a heat pump defrost board reads its coil (DFT) sensor and timer, how to jumper the sensor and use the speed-up terminals to force a defrost cycle, and how to return the unit to heat mode afterwards.",
     "safety": "Work on the defrost board and sensor only with power isolated; re-energise only when the sensor and speed-up jumpers are removed and the board is back in its normal wiring.",
     "ppe": [
@@ -2833,6 +2833,86 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Remove the old faucet and fit the new faucet with its gasket or plate sitting flat on the sink.",
       "Feed the new hoses through the sink and secure the assembly from below, then reconnect the supply lines hand-tight plus a small nudge.",
       "Open the valves slowly and check every joint above and below the sink for leaks before finishing."
+    ]
+  },
+  {
+    "id": "hvac-135",
+    "title": "HVAC Pressure Testing Procedure for Air Conditioners: Step by Step",
+    "category": "HVAC",
+    "subject": "Pressure Testing",
+    "level": "Intermediate",
+    "source": "YouTube / Field Guild",
+    "channel": "AC Service Tech LLC",
+    "publishDate": "2026-11-16",
+    "duration": "15:09",
+    "embedUrl": "https://www.youtube.com/embed/2REIP5Ddn60",
+    "isNew": true,
+    "summary": "Shows the step-by-step nitrogen pressure test for an air conditioning system, from purging and setting test pressure through bubble-testing joints and checking the hold.",
+    "safety": "Recover refrigerant first and never exceed the unit's listed test pressure; use a regulator on dry nitrogen only and keep your face and hands clear of the hose when releasing pressure.",
+    "ppe": [
+      "Safety Glasses",
+      "Work Gloves"
+    ],
+    "steps": [
+      "Recover all refrigerant and confirm the system is empty before connecting nitrogen.",
+      "Purge the system, then set the regulator to the test pressure from the manufacturer data.",
+      "Bubble-test every brazed joint, flare and service valve and mark the gauge needle.",
+      "Hold the pressure and watch for drop over time, allowing for ambient temperature change.",
+      "Vent the nitrogen safely and move to vacuum only after the system holds."
+    ]
+  },
+  {
+    "id": "plumb-136",
+    "title": "Troubleshooting a Pressure Pump After Installation",
+    "category": "Plumbing",
+    "subject": "Pump Diagnostics",
+    "level": "Advanced",
+    "source": "Manufacturer Tech Academy",
+    "channel": "Pascali Pumps",
+    "publishDate": "2026-11-16",
+    "duration": "12:00",
+    "embedUrl": "https://www.youtube.com/embed/Ug5j-DnkdKU",
+    "isNew": true,
+    "summary": "Diagnoses a domestic pressure pump that will not start, runs without delivering water, cycles on and off, or hums without turning, covering flow versus pressure switch faults and airlocks.",
+    "safety": "Isolate the pump supply before any inspection, never open the housing or handle the motor fan while energised, and disconnect power before turning the fan by hand.",
+    "ppe": [
+      "Safety Glasses",
+      "Insulated Gloves",
+      "Non-Slip Footwear"
+    ],
+    "steps": [
+      "Confirm the supply is on, then isolate the pump before checking connections and terminals.",
+      "Check inlet and outlet valves, strainer restrictions and non-return valve orientation.",
+      "Bleed the airlock at the pump housing and re-test for flow.",
+      "Determine whether a flow switch or pressure switch is cycling, checking for leaks and the tank pre-charge.",
+      "For a humming motor, free the fan by hand with power off, then inspect the capacitor and impeller."
+    ]
+  },
+  {
+    "id": "elec-136",
+    "title": "Lighting Circuit 2-Plate Method: Taking the Feed to the Switch",
+    "category": "Electrical",
+    "subject": "Lighting Circuits",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "GSH Electrical",
+    "publishDate": "2026-11-16",
+    "duration": "11:00",
+    "embedUrl": "https://www.youtube.com/embed/1G4fW2DeqPA",
+    "isNew": true,
+    "summary": "Shows how the supply is taken to a one-gang one-way switch and a switch drop runs to the light, with switched live and permanent neutral connected at each point to BS 7671 colours.",
+    "safety": "Switch off the lighting MCB at the consumer unit and prove dead with an approved GS38 voltage indicator at both the switch and the fitting before touching any conductor.",
+    "ppe": [
+      "Safety Glasses",
+      "Approved GS38 Voltage Indicator",
+      "Insulated Screwdriver"
+    ],
+    "steps": [
+      "Isolate the lighting MCB at the consumer unit and prove dead with a GS38 tester.",
+      "Connect the incoming supply: permanent live to the switch COM, neutral to the connector block.",
+      "Connect the switched live from the switch L1 to the switch drop; route the neutral straight through.",
+      "Connect the CPCs to the earth terminals, sleeving bare earths where required.",
+      "At the light fitting, connect switched live and neutral, then test and restore power."
     ]
   }
 ];

@@ -2914,5 +2914,58 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Connect the CPCs to the earth terminals, sleeving bare earths where required.",
       "At the light fitting, connect switched live and neutral, then test and restore power."
     ]
+  },
+  {
+    "id": "hvac-136",
+    "title": "Fast and Easy Clean Out of Condensate Lines on an Air Conditioner",
+    "category": "HVAC",
+    "subject": "Maintenance",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "AC Service Tech LLC",
+    "publishDate": "2026-11-18",
+    "duration": "3:56",
+    "embedUrl": "https://www.youtube.com/embed/gAd-bslLYJI",
+    "isNew": true,
+    "summary": "Shows how to clear a clogged air conditioner condensate trap and line with a short length of tubing or fitting and compressed air or nitrogen at no more than 30 PSI, then refill the trap.",
+    "safety": "Isolate power to the air handler or condenser before opening the trap, and never exceed 30 PSI, since higher pressure can blow apart the drain line joints.",
+    "ppe": [
+      "Safety Glasses",
+      "Work Gloves"
+    ],
+    "steps": [
+      "Switch off power to the air handler or condenser at the disconnect.",
+      "Locate the condensate trap and remove its service cap.",
+      "Wrap electrical tape around the blow-out tip or tubing to seal it inside the trap.",
+      "Blow out the trap with compressed air or nitrogen at 30 PSI or less, then repeat until clear.",
+      "Refill the trap with water, replace the cap, and confirm the safety switch on the secondary pan."
+    ]
+  },
+  {
+    "id": "elec-137",
+    "title": "Getting Started with Altivar Solar ATV320: Wiring and Commissioning",
+    "category": "Electrical",
+    "subject": "Drives & Motor Control",
+    "level": "Advanced",
+    "source": "Manufacturer Tech Academy",
+    "channel": "Schneider Electric",
+    "publishDate": "2026-11-18",
+    "duration": "9:32",
+    "embedUrl": "https://www.youtube.com/embed/YHECZi-bv2Q",
+    "isNew": true,
+    "summary": "Walks through unpacking, mounting, wiring and commissioning a solar-powered Altivar ATV320 pump drive, including nameplate motor data entry and autotuning.",
+    "safety": "Isolate the PV array and the mains supply and wait for the drive DC bus to discharge before opening the cover, because solar panels produce DC whenever they are in light.",
+    "ppe": [
+      "Insulated Gloves",
+      "Safety Glasses",
+      "Insulated Tools"
+    ],
+    "steps": [
+      "Check the drive reference on the label against the purchase order and confirm the supply voltage is compatible.",
+      "Mount the drive vertically and wire the ground, solar panel inputs PA+/PC-, and motor cables with shielded cable on the control side.",
+      "Wire the analogue speed reference and digital run input on the control terminals, keeping power and control cables separate.",
+      "Set the Simply Start menu from the motor nameplate: frequency, power, voltage, current, frequency and speed, then set thermal current.",
+      "Run autotuning, then set acceleration and deceleration and confirm the drive runs the pump at the commissioned speed."
+    ]
   }
 ];

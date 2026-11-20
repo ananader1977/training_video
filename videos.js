@@ -2632,7 +2632,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-11",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/_yLMv7T2hhM",
-    "isNew": true,
+    "isNew": false,
     "summary": "Shows how a liquid line restriction appears on the gauges and subcooling readings, and how a faulty TXV can cause it.",
     "safety": "Gauge work is on pressurised refrigerant; wear eye protection and gloves, and never open a line or vent refrigerant to the air.",
     "ppe": [
@@ -2658,7 +2658,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-11",
     "duration": "5:04",
     "embedUrl": "https://www.youtube.com/embed/JyVbjDsric4",
-    "isNew": true,
+    "isNew": false,
     "summary": "Covers the three stages of a copper soldered joint: cleaning and preparation, flux and heating from the bottom, and finishing with wiping excess flux.",
     "safety": "Torch flame and hot copper cause burns and fire; keep the torch away from combustibles, never heat a joint that is closed to a pressurised line, and let joints cool before touching.",
     "ppe": [
@@ -2685,7 +2685,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-11",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/IH8DBJTN9yY",
-    "isNew": true,
+    "isNew": false,
     "summary": "Walks apprentices through the ring final circuit test sequence, showing the continuity and resistance checks in the order they are performed.",
     "safety": "Isolate and prove the circuit dead before testing and only use a calibrated instrument; test leads must be in good condition.",
     "ppe": [
@@ -2966,6 +2966,86 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Wire the analogue speed reference and digital run input on the control terminals, keeping power and control cables separate.",
       "Set the Simply Start menu from the motor nameplate: frequency, power, voltage, current, frequency and speed, then set thermal current.",
       "Run autotuning, then set acceleration and deceleration and confirm the drive runs the pump at the commissioned speed."
+    ]
+  },
+  {
+    "id": "hvac-137",
+    "title": "HVAC Control Board Operation for Troubleshooting",
+    "category": "HVAC",
+    "subject": "Controls & Diagnostics",
+    "level": "Advanced",
+    "source": "YouTube / Field Guild",
+    "channel": "AC Service Tech LLC",
+    "publishDate": "2026-11-20",
+    "duration": "",
+    "embedUrl": "https://www.youtube.com/embed/fV7iH_WK_gw",
+    "isNew": true,
+    "summary": "Compares integrated furnace control boards, ignition modules and electronic fan timers, and shows how loose connectors and pitted relay contacts are often blamed on a good board.",
+    "safety": "Isolate power at the furnace or air handler and prove it dead with a meter before pushing or pulling control connectors.",
+    "ppe": [
+      "Safety Glasses",
+      "Insulated Gloves",
+      "Non-contact Voltage Tester"
+    ],
+    "steps": [
+      "Identify the board type: integrated furnace control, ignition module or electronic fan timer.",
+      "With power isolated, re-seat and inspect each connector for looseness, corrosion or burnt pins.",
+      "Inspect relay contacts for pitting and confirm the blower and inducer receive correct voltage.",
+      "Check intermittent faults under operating conditions before condemning a control board.",
+      "Record the findings and replace only the component confirmed faulty."
+    ]
+  },
+  {
+    "id": "plumb-137",
+    "title": "How to Replace a Faucet Cartridge from American Standard",
+    "category": "Plumbing",
+    "subject": "Fixtures & Repairs",
+    "level": "Beginner",
+    "source": "Manufacturer Tech Academy",
+    "channel": "American Standard",
+    "publishDate": "2026-11-20",
+    "duration": "",
+    "embedUrl": "https://www.youtube.com/embed/wA7aLHZ84D4",
+    "isNew": true,
+    "summary": "Shows removing the escutcheon cover and handle, unscrewing the old cartridge with a wrench, and fitting and securing a new cartridge with its adapter.",
+    "safety": "Shut off the supply valves under the fixture and open the faucet to relieve pressure before removing the cartridge.",
+    "ppe": [
+      "Safety Glasses",
+      "Nitrile Gloves"
+    ],
+    "steps": [
+      "Remove the cover and handle from the escutcheon.",
+      "Use a wrench to remove the old cartridge from the body.",
+      "Place the new cartridge into the body and tighten it with a wrench.",
+      "Fit the adapter onto the cartridge and secure its top screw with a screwdriver.",
+      "Refit the cover and handle onto the escutcheon, then turn the supply on and check for leaks."
+    ]
+  },
+  {
+    "id": "elec-138",
+    "title": "Insulation Resistance Test on a Single Phase Board",
+    "category": "Electrical",
+    "subject": "Testing",
+    "level": "Intermediate",
+    "source": "YouTube / Field Guild",
+    "channel": "Proactive Technical Training PTT",
+    "publishDate": "2026-11-20",
+    "duration": "",
+    "embedUrl": "https://www.youtube.com/embed/ivla91KxxMo",
+    "isNew": true,
+    "summary": "Walks through a 500 V insulation resistance test on a small single-phase domestic installation, including the 1 MΩ minimum and meter open/short checks.",
+    "safety": "Confirm the circuit is safe-isolated and locked off, warn occupants, and remove loads such as lamps before applying 500 V.",
+    "ppe": [
+      "Insulated Gloves",
+      "Safety Glasses",
+      "Shrouded Test Probes"
+    ],
+    "steps": [
+      "Confirm the circuit is safe-isolated and locked off, and warn occupants.",
+      "Check the insulation tester with an open-circuit and short-circuit test before use.",
+      "Remove loads such as lamps and make sure all circuits are connected for the test.",
+      "Test each circuit individually at 500 V with its breaker off, and record the reading.",
+      "Compare results against the 1 MΩ minimum and investigate any low reading before energising."
     ]
   }
 ];

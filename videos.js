@@ -2712,7 +2712,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-13",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/IdWBqHEaSPM",
-    "isNew": true,
+    "isNew": false,
     "summary": "Explains the five most common HVAC contactor failures, such as contacts welded closed or pitted with high resistance, and how to check each with a multimeter in resistance mode.",
     "safety": "Isolate line voltage and prove dead before handling the contactor, take resistance readings only on de-energised contacts, and keep hands clear of the contacts when the 24 V coil is energised.",
     "ppe": [
@@ -2739,7 +2739,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-13",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/6XZEF2ALkmo",
-    "isNew": true,
+    "isNew": false,
     "summary": "Walks through the USC 10th Edition field test of an RP assembly with a two-valve kit, covering static line pressure, relief valve opening point and check valve tightness.",
     "safety": "Discharge from the relief port can be under pressure and the assembly must be isolated before testing; open test cocks slowly so the relief valve is not jumped, and only a certified backflow tester should perform the test.",
     "ppe": [
@@ -2766,7 +2766,7 @@ window.ALBONIAN_EXTRA_VIDEOS = [
     "publishDate": "2026-11-13",
     "duration": "N/A",
     "embedUrl": "https://www.youtube.com/embed/aMWNgwQeQ8g",
-    "isNew": true,
+    "isNew": false,
     "summary": "Demonstrates safe isolation of a UK consumer unit: switching off and locking off the supply, then proving dead with a GS38 voltage indicator proved before and after the test.",
     "safety": "Never rely on a non-contact tester or multimeter to prove dead; prove the voltage indicator on a known source before and after, and lock off the supply so it cannot be re-energised.",
     "ppe": [
@@ -3046,6 +3046,86 @@ window.ALBONIAN_EXTRA_VIDEOS = [
       "Remove loads such as lamps and make sure all circuits are connected for the test.",
       "Test each circuit individually at 500 V with its breaker off, and record the reading.",
       "Compare results against the 1 MΩ minimum and investigate any low reading before energising."
+    ]
+  },
+  {
+    "id": "hvac-138",
+    "title": "Connect & Disconnect Refrigerant Gauges: Low Loss Fittings",
+    "category": "HVAC",
+    "subject": "Gauges & Tools",
+    "level": "Beginner",
+    "source": "YouTube / Field Guild",
+    "channel": "AC Service Tech LLC",
+    "publishDate": "2026-11-21",
+    "duration": "7:24",
+    "embedUrl": "https://www.youtube.com/embed/xTctTHhOgaw",
+    "isNew": true,
+    "summary": "Shows how low-loss fittings and a valve-core depressor control refrigerant release when a gauge set is connected to or disconnected from a service valve.",
+    "safety": "Treat every refrigerant line as pressurised, wear gloves, and only connect or disconnect gauges under the supervision of a licensed technician.",
+    "ppe": [
+      "Safety Glasses",
+      "Refrigerant-Rated Gloves"
+    ],
+    "steps": [
+      "Confirm the system is being worked on under licensed supervision before any gauge connection.",
+      "Identify the service valve type: a valve-core port or a three-position stem valve.",
+      "Back-seat the stem valve or depress the valve core before connecting the hose.",
+      "Connect the hose through a low-loss fitting or ball valve to limit refrigerant release.",
+      "On disconnect, let the hose drain through the low-loss fitting so refrigerant stays controlled."
+    ]
+  },
+  {
+    "id": "plumb-138",
+    "title": "Water Heater Pressure Relief Valve: Repair and Replace",
+    "category": "Plumbing",
+    "subject": "Water Heaters",
+    "level": "Intermediate",
+    "source": "YouTube / Field Guild",
+    "channel": "AMRE Supply",
+    "publishDate": "2026-11-21",
+    "duration": "6:35",
+    "embedUrl": "https://www.youtube.com/embed/2qhsmSbQQzc",
+    "isNew": true,
+    "summary": "Shows how to drain the tank below the valve, replace a temperature and pressure relief valve with thread tape, then refill and check for leaks.",
+    "safety": "Cut power or set the gas control to pilot first, and treat hot tank water and the discharge as scald hazards while draining.",
+    "ppe": [
+      "Safety Glasses",
+      "Heat-Resistant Gloves",
+      "Safety Boots"
+    ],
+    "steps": [
+      "Turn the electric breaker off or set the gas control to pilot, then shut off the cold supply.",
+      "Open a hot tap and drain enough water below the valve through the drain cock into a safe outlet.",
+      "Remove the discharge pipe, unscrew the old relief valve, and clean the threads with a wire brush.",
+      "Wrap 3 to 4 turns of PTFE tape clockwise, leaving the last thread bare, then hand-tighten and wrench the new valve.",
+      "Refill the tank, bleed air from the hot tap, restore power or pilot, and confirm there are no leaks."
+    ]
+  },
+  {
+    "id": "elec-139",
+    "title": "How to Check a 3-Phase Power Factor Capacitor with a Clamp Meter",
+    "category": "Electrical",
+    "subject": "Testing",
+    "level": "Advanced",
+    "source": "YouTube / Field Guild",
+    "channel": "The Electrical Guy",
+    "publishDate": "2026-11-21",
+    "duration": "",
+    "embedUrl": "https://www.youtube.com/embed/5vsxYR0KQ-o",
+    "isNew": true,
+    "summary": "Shows how to read a power factor capacitor nameplate and check its operating current with a clamp meter on a three-phase supply.",
+    "safety": "Isolate and lock off the supply, prove dead, discharge the capacitor before touching terminals, and energise only for test under a permit.",
+    "ppe": [
+      "Insulated Gloves",
+      "Safety Glasses",
+      "Arc-Rated Face Shield"
+    ],
+    "steps": [
+      "Isolate, lock off and prove dead the capacitor supply before any terminal work.",
+      "Read the nameplate voltage, rating and rated current to set the expected values.",
+      "Discharge the capacitor fully before handling its terminals.",
+      "Re-energise for test only under a permit, then clamp each phase and compare the measured current with the rating.",
+      "Record the readings and report any capacitor whose current is abnormal for its rated voltage."
     ]
   }
 ];
